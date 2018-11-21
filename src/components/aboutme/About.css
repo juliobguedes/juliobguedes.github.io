@@ -1,0 +1,14 @@
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.image-wrapper {
+    width: 50vh;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
