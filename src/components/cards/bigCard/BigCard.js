@@ -3,7 +3,7 @@ import React from 'react';
 const styles = bgColor => ({
     background: {
         backgroundColor: bgColor || 'white',
-        height: '100vh',
+        minHeight: '100vh',
     },
 });
 

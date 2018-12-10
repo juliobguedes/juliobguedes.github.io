@@ -1,14 +1,31 @@
 img {
     display: inline;
     margin: 0 auto;
-    height: 100%;
-    width: auto;
 }
 
 .image-wrapper {
-    width: 50vh;
     height: 50vh;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
+}
+
+.justify-center {
+    justify-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fontSizeA {
+    font-size: '2.25em',
+}
+
+.fontSizeB {
+    font-size: '1.75em',
+}
+
+.fontSizeC {
+    font-size: '1.25em',
 }
