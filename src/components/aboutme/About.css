@@ -4,7 +4,7 @@ img {
 }
 
 .image-wrapper {
-    height: 50vh;
+    width: 90%;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
