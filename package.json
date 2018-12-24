@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js"
+    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.js",
+    "build": "./node_modules/.bin/webpack --config ./webpack/webpack.prod.js"
   },
   "author": "julio.costa@ccc.ufcg.edu.br",
   "license": "MIT",
@@ -44,6 +45,7 @@
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
     "style-loader": "^0.23.0",
-    "url-loader": "^1.1.2"
+    "url-loader": "^1.1.2",
+    "webpack-merge": "^4.1.5"
   }
 }
