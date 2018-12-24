@@ -1,0 +1,31 @@
+{
+    "skills": [{
+        "id": 1,
+        "skName": "test 1",
+        "skDescription": "test 1 description lorem ipsum"
+    },{
+        "id": 2,
+        "skName": "test 2",
+        "skDescription": "test 2 description lorem ipsum"
+    },{
+        "id": 3,
+        "skName": "test 3",
+        "skDescription": "test 3 description lorem ipsum"
+    },{
+        "id": 4,
+        "skName": "test 3",
+        "skDescription": "test 3 description lorem ipsum"
+    },{
+        "id": 5,
+        "skName": "test 3",
+        "skDescription": "test 3 description lorem ipsum"
+    },{
+        "id": 6,
+        "skName": "test 3",
+        "skDescription": "test 3 description lorem ipsum"
+    },{
+        "id": 7,
+        "skName": "test 3",
+        "skDescription": "test 3 description lorem ipsum"
+    }]
+}

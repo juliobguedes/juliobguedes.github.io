@@ -26,7 +26,7 @@ module.exports = {
                     outputPath: 'images/',
                     name: '[hash]-[name].[ext]',
                 },
-            }    
+            }
         ]
     },
     output: {
