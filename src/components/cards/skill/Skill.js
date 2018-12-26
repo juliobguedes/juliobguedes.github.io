@@ -10,10 +10,11 @@ const styles = {
     },
 };
 
-const Skill = ({ name, desc }) => (
+const Skill = ({ name, desc, url, display }) => (
     <div className="container">
         <p className="text-center" style={styles.textStyle}>{name}</p>
         <p className="text-center" style={styles.textStyle}>{desc}</p>
+        
     </div>
 );
 
