@@ -1,5 +1,6 @@
 import React from 'react';
 import Skill from '../cards/skill/Skill';
+import './Skills.css';
 const sk = require('../../lib/skills.json');
 const exampleSkills = sk.skills;
 
@@ -11,7 +12,12 @@ const Skills = () => (
         {exampleSkills.map(
             skill => (
             <div bp="4@md 6@sm 12@xs" key={skill.id}>
-                <Skill name={skill.skName} desc={skill.skDescription} />
+                <Skill
+                    name={skill.skName}
+                    desc={skill.skDescription}
+                    url={skill.url}
+                    display={skill.urlDisplay}
+                />
             </div>
         ))}
     </>

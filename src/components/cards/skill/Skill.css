@@ -3,13 +3,19 @@
     border-color: black;
     border-radius: 5px;
     border-width: 2px;
-    height: 100%;
+    min-height: 22vh;
     margin: 1vh 1.5vw;
 }
 
 .textStyle {
     text-align: center;
-    font-size: 1.5em;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    font-size: 1.25em;
+}
+
+.textStyle.desc {
+    font-size: 1.15em;
+}
+
+.imgSize {
+    height: 32px;
 }
