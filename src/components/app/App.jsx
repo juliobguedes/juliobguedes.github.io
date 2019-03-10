@@ -1,4 +1,6 @@
-import React, { Component } from 'react';
+// @flow
+
+import React from 'react';
 import BigCard from '../cards/bigCard/BigCard';
 import Intro from '../intro/Intro';
 import About from '../aboutme/About';

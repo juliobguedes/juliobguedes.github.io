@@ -1,16 +1,21 @@
-import React from 'react';
+// @flow
+import * as React from 'react';
 
 const styles = bgColor => ({
     background: {
         backgroundColor: bgColor || 'inherit',
         height: '90vh',
         borderRadius: '1.5px',
-
     },
 });
 
-const SmallCard = ({ color, Component }) => (
-    <div style={styles(color).background} bp="grid vertical-center">
+type SmallCardProps = {
+    color: string,
+    Component: React.Component,
+};
+
+const SmallCard = ({ color, Component }: SmallCardProps) => (
+    <div style={styles(color).background}>
         <Component />
     </div>
 );

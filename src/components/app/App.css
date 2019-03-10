@@ -1,4 +1,34 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.justify-center {
+    justify-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fontSizeA {
+    font-size: '2.25em',
+}
+
+.fontSizeB {
+    font-size: '1.75em',
+}
+
+.fontSizeC {
+    font-size: '1.25em',
+}
+
+.clean {
+    font-family: 'Roboto';
+    font-weight: 300;
 }

@@ -1,0 +1,12 @@
+{
+    "extends": ["airbnb", "plugin:flowtype/recommended"],
+    "plugins": ["flowtype"],
+    "rules": {
+        "indent": [0, 4],
+        "react/jsx-indent": [2, 4],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    },
+    "env": {
+        "browser": true
+    }
+}

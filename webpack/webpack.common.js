@@ -1,35 +1,41 @@
-const webpack = require("webpack");
-const path = require("path");
+const webpack = require('webpack'); // eslint-disable-line no-unused-vars
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 const parentDir = path.join(__dirname, '../');
+const htmlWB = new HtmlWebpackPlugin({
+    template: 'src/index.html',
+    filename: 'index.html',
+});
 
 module.exports = {
     entry: [
-        path.join(parentDir, 'index.js')
+        path.join(parentDir, 'index.js'),
     ],
     module: {
         rules: [{
             test: /\.(js|jsx)$/,
-                exclude: /node_modules/,
-                loader: 'babel-loader'
-            }, {
-                test: /\.less$/,
-                loaders: ["style-loader", "css-loader", "less-loader"]
-            }, {
-                test: /\.css$/,
-                loaders: ["style-loader", "css-loader"]
-            }, {
-                test: /\.(png|jp(e*)g)$/,
-                loader: 'url-loader',
-                options: {
-                    limit: 8000,
-                    outputPath: './images/',
-                    name: '[hash]-[name].[ext]',
-                },
-            }
-        ]
+            exclude: /node_modules/,
+            loader: 'babel-loader',
+        }, {
+            test: /\.(less|css)$/,
+            loaders: ['style-loader', 'css-loader', 'less-loader'],
+        }, {
+            test: /\.(png|jp(e*)g)$/,
+            loader: 'url-loader',
+            options: {
+                limit: 8000,
+                outputPath: './images/',
+                name: '[hash]-[name].[ext]',
+            },
+        }],
     },
     output: {
-        path: parentDir + '/dist/',
-        filename: 'bundle.js'
+        path: `${parentDir}/docs/`,
+        filename: 'bundle.js',
+    },
+    plugins: [htmlWB],
+    resolve: {
+        extensions: ['.js', '.jsx'],
     },
 };
