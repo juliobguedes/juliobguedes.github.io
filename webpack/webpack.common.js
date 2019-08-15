@@ -31,7 +31,7 @@ module.exports = {
         }],
     },
     output: {
-        path: `${parentDir}/docs/`,
+        path: `${parentDir}/`,
         filename: 'bundle.js',
     },
     plugins: [htmlWB],
