@@ -9,3 +9,9 @@
 .fontSizeC {
     font-size: 1.25em;
 }
+
+.proper-center {
+    align-items: center;
+    justify-content: center;
+    padding: 10% 20% 10% 20%;
+}

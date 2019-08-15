@@ -17,11 +17,17 @@ const cleanStyle = {
 
 const App = () => (
     <div style={cleanStyle.clean}>
-        <BigCard Component={() => <Intro />} />
-        <BigCard Component={() => <About />} color="#00a86b" />
-        <BigCard Component={() => <Skills />} color="#40e0d0" />
-        <BigCard Component={() => <div>hey</div>} color="#ffbf00" />
-        <BigCard Component={() => <div>hey</div>} color="#232e45" />
+        <BigCard>
+            <Intro />
+        </BigCard>
+        <BigCard color="#00a86b">
+            <About />
+        </BigCard>
+        <BigCard color="#40e0d0">
+            <Skills />
+        </BigCard>
+        <BigCard color="#ffbf00" />
+        <BigCard color="#232e45" />
     </div>
 );
 

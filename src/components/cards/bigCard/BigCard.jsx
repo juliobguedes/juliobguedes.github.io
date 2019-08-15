@@ -1,6 +1,7 @@
 // @flow
 
-import * as React from 'react';
+import React from 'react';
+import type { Node } from 'react';
 import './BigCard.css';
 
 const styles = bgColor => ({
@@ -10,13 +11,13 @@ const styles = bgColor => ({
 });
 
 type BigCardProps = {
-    Component: React.Component,
+    children: Node,
     color: string,
 };
 
-const BigCard = ({ Component, color }: BigCardProps) => (
+const BigCard = ({ children, color }: BigCardProps) => (
     <div style={styles(color).background} className="bigCardContainer">
-        <Component />
+        {children}
     </div>
 );
 

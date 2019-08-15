@@ -5,7 +5,33 @@ img {
 
 .image-wrapper {
     width: 90%;
-    position: relative;
-    overflow: hidden;
     border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image-container {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    flex: 1;
+    margin: 5% 10% 5% 10%;
+}
+
+.font-size-c {
+    font-size: 1.5em;
+    text-align: justify;
 }

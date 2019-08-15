@@ -3,28 +3,8 @@ import profileImage from '../../../assets/img/profile.jpg';
 
 import './About.css';
 
-const styles = {
-    fontSizeC: {
-        paddingLeft: '7.5vw',
-        paddingRight: '7.5vw',
-        fontSize: '1.5em',
-        justifyItems: 'center',
-    },
-    centerFull: {
-        paddingTop: '15vh',
-        paddingBottom: '15vh',
-        minHeight: '100vh',
-        textAlign: 'center',
-    },
-    center: {
-        paddingTop: '15vh',
-        paddingBottom: '15vh',
-        textAlign: 'center',
-    },
-};
-
 const AboutText = () => (
-    <div style={styles.fontSizeC}>
+    <div className="font-size-c">
         <p>
             I am a brazilian developer and undergraduate student in Computer
             Science at the Federal University of Campina Grande (UFCG), currently
@@ -47,14 +27,14 @@ const AboutText = () => (
 );
 
 const About = () => (
-    <>
-        <div style={styles.center}>
+    <div className="about-container">
+        <div className="image-container">
             <img className="image-wrapper" alt="Me, Júlio" src={profileImage} />
         </div>
-        <div style={styles.centerFull}>
+        <div className="text-container">
             <AboutText />
         </div>
-    </>
+    </div>
 );
 
 export default About;

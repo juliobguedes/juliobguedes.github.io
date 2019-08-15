@@ -5,7 +5,7 @@ import './Intro.css';
 const BoldName = () => <b> Júlio Guedes</b>;
 
 const Intro = () => (
-    <div className="text-center">
+    <div className="text-center proper-center">
         <div className="fontSizeA">
             <p>Hello there!</p>
             <p>
@@ -19,8 +19,8 @@ const Intro = () => (
                 a few things about me and about what I have been working with.
             </p>
         </div>
-        <div className="fontSizeC">
-            <p>I truly hope you enjoy it!</p>
+        <div className="fontSizeB">
+            <p>I hope you enjoy it! :)</p>
         </div>
     </div>
 );
