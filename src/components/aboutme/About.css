@@ -3,19 +3,40 @@ img {
     margin: 0 auto;
 }
 
-.image-wrapper {
-    width: 90%;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
+@media screen and (max-width: 1600px) {
+    .about-container {
+        height: 100vh;
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .image-wrapper {
+        width: 90%;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
-.about-container {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+@media screen and (max-width: 768px) {
+    .about-container {
+        height: 100vh;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .image-wrapper {
+        width: 30%;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .image-container {

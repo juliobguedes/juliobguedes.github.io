@@ -1,6 +1,28 @@
-.textStyle {
-    text-align: center;
+.skills-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.text-style {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5vw 0 5vw;
+}
+
+.skills-style {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.font-style {
+    text-align: justify;
     font-size: 1.5em;
-    margin-left: 5vw;
-    margin-right: 5vw;
 }

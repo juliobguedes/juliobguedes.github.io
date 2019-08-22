@@ -11,17 +11,14 @@ const AboutText = () => (
             on the sixth semester.
         </p>
         <p>
-            I am currently working in the E-Pol project in the Software Practices
-            Laboratory at UFCG. While that, I am focusing myself in learning more
-            about web development and data science.
+            I am currently working in the Computational Perception Laboratory (LPC) @ UFCG,
+            under advisement of professors Herman Martins and Eanes Torres, in a project using
+            React Native and Node.js.
         </p>
         <p>
-            Besides that, I like to keep learning about design in Web Development
-            and Data Visualization. Those are two of the things that I consider
-            being of great importance: the way that the costumers see the product
-            and the way that we see the data. The first one matters if we want our
-            the users to keep using our products, and the second have a direct
-            impact on the insights we have in the analysis of the data.
+            I also like to keep myself learning what I can, improving existing skills and
+            always challenging myself. I also like to participate in coding competitions with
+            my friends, watch a lot of movies and series and read.
         </p>
     </div>
 );
