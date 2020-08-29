@@ -2,7 +2,6 @@
 
 import React from 'react';
 import gitIcon from '../../../../assets/img/GitHub-Mark-32px.png';
-import gitLightIcon from '../../../../assets/img/GitHub-Mark-Light-32px.png';
 import './Skill.css';
 
 type SkillProps = {
@@ -10,21 +9,27 @@ type SkillProps = {
     desc: string,
     repoUrl: string,
     liveUrl: string,
-    imgDisplay: string,
 };
 
 const Skill = ({
-    name, desc, repoUrl, liveUrl, imgDisplay,
+    name: title, desc, repoUrl, liveUrl,
 }: SkillProps) => (
     <div className="container">
-        <p className="text-center textStyle">{name}</p>
-        <p className="text-center textStyle desc">{desc}</p>
-        <a href={repoUrl}>
-            <img src={gitIcon} className="center" alt="Github Repository" />
-        </a>
-        <a href={liveUrl}>
-            <img src={imgDisplay || gitLightIcon} className="imgSize" alt="Repository Live" />
-        </a>
+        <div className="title-grid">
+            <p className="fontSizeB">
+                <a href={liveUrl} target="_blank" rel="noopener noreferrer">
+                    {title}
+                </a>
+            </p>
+            <a className="title-icon" href={repoUrl} target="_blank" rel="noopener noreferrer">
+                <img src={gitIcon} className="center" alt="Github Repository" />
+            </a>
+        </div>
+        <p className="fontSizeC">
+            <a href={repoUrl} target="_blank" rel="noopener noreferrer">
+                {desc}
+            </a>
+        </p>
     </div>
 );
 

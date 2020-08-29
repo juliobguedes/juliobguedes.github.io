@@ -1,16 +1,6 @@
-.fontSizeA {
-    font-size: 2.25em;
-}
-
-.fontSizeB {
-    font-size: 1.75em;
-}
-
-.fontSizeC {
-    font-size: 1.25em;
-}
-
 .proper-center {
+    grid-column-start: 2;
+    grid-row-start: 2;
     align-items: center;
     justify-content: center;
     padding: 10% 20% 10% 20%;

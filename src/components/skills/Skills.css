@@ -1,28 +1,48 @@
-.skills-container {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+    .skills-container {
+        grid-row-start: 2;
+        grid-column-start: 2;
+        display: grid;
+        grid-template-columns: 1fr 5% 1.5fr;
+    }
+
+    .text-wrapper {
+        grid-column-start: 1;
+    }
+
+    .skills-style {
+        grid-column-start: 3;
+        display: grid;
+        grid-template-columns: 1fr 3% 1fr;
+    }
 }
 
-.text-style {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    margin: 0 5vw 0 5vw;
+@media screen and (max-width: 768px) {
+    .skills-container {
+        grid-row-start: 2;
+        grid-column-start: 2;
+        display: grid;
+        grid-template-rows: 0.7fr 1.5fr;
+    }
+
+    .text-wrapper {
+        grid-row-start: 1;
+    }
+
+    .skills-style {
+        grid-row-start: 2;
+        display: grid;
+        grid-template-columns: 1fr 3% 1fr;
+    }
 }
 
-.skills-style {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    align-items: center;
+.text-wrapper {
+    display: grid;
     justify-content: center;
+    align-content: center;
 }
 
 .font-style {
     text-align: justify;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }

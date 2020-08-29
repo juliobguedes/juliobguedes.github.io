@@ -1,5 +1,15 @@
-.bigCardContainer {
-    min-height: 100vh;
-    grid-template-columns: 10vw auto 10vw;
-    grid-template-rows: 10vh auto 10vh;
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+    .bigCardContainer {
+        display: grid;
+        grid-template-columns: 5vw 1fr 5vw;
+        grid-template-rows: 5vh 1fr 5vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bigCardContainer {
+        display: grid;
+        grid-template-columns: 5vw 1fr 5vw;
+        grid-template-rows: 5vh 1fr 5vh;
+    }
 }

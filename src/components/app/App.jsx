@@ -8,15 +8,8 @@ import Skills from '../skills/Skills';
 
 import './App.css';
 
-const cleanStyle = {
-    clean: {
-        fontWeight: '300',
-        fontFamily: 'Roboto',
-    },
-};
-
 const App = () => (
-    <div style={cleanStyle.clean}>
+    <div className="clean">
         <BigCard>
             <Intro />
         </BigCard>
@@ -26,8 +19,6 @@ const App = () => (
         <BigCard color="#40e0d0">
             <Skills />
         </BigCard>
-        <BigCard color="#ffbf00" />
-        <BigCard color="#232e45" />
     </div>
 );
 

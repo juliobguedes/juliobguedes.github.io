@@ -1,15 +1,36 @@
 .container {
-    border: solid;
-    border-color: black;
-    border-radius: 5px;
-    border-width: 2px;
-    min-height: 22vh;
-    margin: 1vh 1.5vw;
-    padding: 0 20% 0 20%
+    background-color: white;
+    box-shadow: 5px 5px 5px #555;
+    border-radius: 2px;
+    margin-bottom: 3%;
+    padding: 0% 10%;
+}
+
+.container:nth-child(odd) {
+    grid-column: 1;
+}
+
+.container:nth-child(even) {
+    grid-column: 3;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.title-grid {
+    display: grid;
+    grid-template-columns: 1fr 0.25fr;
+}
+
+.title-icon {
+    display: grid;
+    align-content: center;
+    justify-content: center;
 }
 
 .textStyle {
-    text-align: center;
     font-size: 1.25em;
 }
 

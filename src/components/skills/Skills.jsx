@@ -8,11 +8,12 @@ const exampleSkills = sk.skills;
 
 const Skills = () => (
     <div className="skills-container">
-        <div className="text-style">
+        <div className="text-wrapper">
+            <h1>Projects</h1>
             <p className="font-style">
-                During my graduation in Computer Science, I have worked in
-                a few projects: some of them for fun, and others for classes.
-                Here they are:
+                Along the undergraduate course, I have developed a few projects
+                by myself or with friends. Some of them have been developed
+                during classes, others were just for fun and enjoying what we imagined.
             </p>
         </div>
         <div className="skills-style">
@@ -22,8 +23,8 @@ const Skills = () => (
                       key={skill.id}
                       name={skill.skName}
                       desc={skill.skDescription}
-                      url={skill.url}
-                      display={skill.urlDisplay}
+                      repoUrl={skill.url}
+                      liveUrl={skill.urlDisplay}
                     />
                 ),
             )}

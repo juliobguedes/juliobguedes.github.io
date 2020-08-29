@@ -6,19 +6,16 @@ import './About.css';
 const AboutText = () => (
     <div className="font-size-c">
         <p>
-            I am a brazilian developer and undergraduate student in Computer
-            Science at the Federal University of Campina Grande (UFCG), currently
-            on the sixth semester.
+            I am a brazilian undergraduate student and Master&apos;s candidate
+            in Computer Science at the Federal University of Campina Grande (UFCG).
+            I am currently developing in the field of Natural Language Processing (NLP)
+            in a project in partnership with Dell EMC, and researching in Recommender Systems
+            and related topics.
         </p>
         <p>
-            I am currently working in the Computational Perception Laboratory (LPC) @ UFCG,
-            under advisement of professors Herman Martins and Eanes Torres, in a project using
-            React Native and Node.js.
-        </p>
-        <p>
-            I also like to keep myself learning what I can, improving existing skills and
-            always challenging myself. I also like to participate in coding competitions with
-            my friends, watch a lot of movies and series and read.
+            During my undergraduate course I have worked with both Web and Mobile development, using
+            Angular.JS and React Native respectively. I am now focused in Data Analysis and
+            Visualization, and Machine Learning with a special interest in Deep Learning.
         </p>
     </div>
 );
@@ -29,6 +26,7 @@ const About = () => (
             <img className="image-wrapper" alt="Me, Júlio" src={profileImage} />
         </div>
         <div className="text-container">
+            <h1 className="about-title">About Me</h1>
             <AboutText />
         </div>
     </div>
