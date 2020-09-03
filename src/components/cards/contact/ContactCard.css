@@ -1,0 +1,47 @@
+@media screen and (max-width: 1440px) {
+    .contact-card-container:nth-child(odd) {
+        grid-column: 1;
+    }
+    
+    .contact-card-container:nth-child(even) {
+        grid-column: 3;
+    }
+}
+
+.contact-card-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 15%;
+    border: 2px solid black;
+    border-radius: 1px;
+
+    color: black;
+
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+.linkedin:hover {
+    background-color: #4875B4;
+    color: white;
+    border: 2px solid #4875B4;
+}
+
+.twitter:hover {
+    background-color: #1DA1F2;
+    color: white;
+    border: 2px solid #1DA1F2;
+}
+
+.github:hover {
+    background-color: #24292e;
+    color: white;
+    border: 2px solid #24292e;
+}
+
+.email:hover {
+    background-color: #c71610;
+    color: white;
+    border: 2px solid #c71610;
+}

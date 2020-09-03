@@ -6,12 +6,20 @@
     padding: 0% 10%;
 }
 
-.container:nth-child(odd) {
-    grid-column: 1;
+@media screen and (max-width: 425px) {
+    .container:nth-child(1n) {
+        grid-column: 2;
+    }
 }
 
-.container:nth-child(even) {
-    grid-column: 3;
+@media screen and (min-width: 426px) and (max-width: 1440px) {
+    .container:nth-child(odd) {
+        grid-column: 1;
+    }
+    
+    .container:nth-child(even) {
+        grid-column: 3;
+    }
 }
 
 a {
