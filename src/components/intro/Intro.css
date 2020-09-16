@@ -4,5 +4,10 @@
     align-items: center;
     justify-content: center;
     padding: 10% 20% 10% 20%;
-    font-family: 'CormorantGaramond';
+    font-family: 'Inconsolata', monospace;
+}
+
+.amatic {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3rem;
 }

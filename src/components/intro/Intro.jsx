@@ -7,7 +7,7 @@ const BoldName = () => <b> Júlio Guedes</b>;
 const Intro = () => (
     <div className="text-center proper-center">
         <div className="fontSizeA">
-            <p>Hello there!</p>
+            <p className="amatic">Hello there!</p>
             <p>
                 My name is
                 <BoldName />
