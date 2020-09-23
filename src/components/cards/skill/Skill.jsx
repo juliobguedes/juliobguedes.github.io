@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import gitIcon from '../../../../assets/img/GitHub-Mark-32px.png';
+import { FaGithub } from 'react-icons/fa';
 import './Skill.css';
 
 type SkillProps = {
@@ -22,7 +22,7 @@ const Skill = ({
                 </a>
             </p>
             <a className="title-icon" href={repoUrl} target="_blank" rel="noopener noreferrer">
-                <img src={gitIcon} className="center" alt="Github Repository" />
+                <FaGithub className="icon" size={32} />
             </a>
         </div>
         <p className="fontSizeC">

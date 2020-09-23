@@ -4,6 +4,11 @@
     border-radius: 2px;
     margin-bottom: 3%;
     padding: 0% 10%;
+    transition: 0.3s ease-in-out;
+}
+
+.container:hover {
+    box-shadow: 7px 7px 7px #555;
 }
 
 @media screen and (max-width: 425px) {
@@ -25,6 +30,10 @@
 a {
     text-decoration: none;
     color: black;
+}
+
+.container > .fontSizeC {
+    margin-top: 0;
 }
 
 .title-grid {

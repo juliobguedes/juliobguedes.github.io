@@ -13,6 +13,9 @@ img {
 
     .image-container {
         grid-column-start: 1;
+        display: grid;
+        align-items: center;
+        justify-content: center;
     }
 
     .text-container {
@@ -24,6 +27,7 @@ img {
     .image-wrapper {
         width: 90%;
         border-radius: 50%;
+        max-width: 35vw;
     }
 }
 
@@ -40,11 +44,14 @@ img {
         grid-row-start: 1;
         grid-column-start: 2;
         display: grid;
+        align-items: center;
+        justify-content: center;
     }
 
     .image-wrapper {
         width: 90%;
         border-radius: 50%;
+        max-width: 50vw;
     }
 
     .text-container {

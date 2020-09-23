@@ -3,7 +3,7 @@
         grid-row-start: 2;
         grid-column-start: 2;
         display: grid;
-        grid-template-columns: 1fr 5% 1.5fr;
+        grid-template-columns: 1fr 0.1fr 1.5fr;
     }
 
     .text-wrapper {
@@ -13,7 +13,7 @@
     .skills-style {
         grid-column-start: 3;
         display: grid;
-        grid-template-columns: 1fr 3% 1fr;
+        grid-template-columns: 1fr 0.05fr 1fr;
     }
 }
 
@@ -32,7 +32,7 @@
     .skills-style {
         grid-row-start: 2;
         display: grid;
-        grid-template-columns: 1fr 3% 1fr;
+        grid-template-columns: 1fr 0.05fr 1fr;
     }
 }
 

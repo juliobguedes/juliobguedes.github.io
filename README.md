@@ -9,7 +9,7 @@ Simple portfolio made using React. The idea is to show a few about what I've lea
 ## To run
 
 ```javascript
-npm run dev
+yarn dev
 ```
 
 ---

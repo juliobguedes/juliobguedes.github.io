@@ -7,7 +7,7 @@
         "urlDisplay": "https://juliobguedes.github.io/TormentaSpellbook"
     },{
         "id": 2,
-        "skName": "Visualization Portfolio",
+        "skName": "Data-Viz Portfolio",
         "skDescription": "A portfolio containing data visualizations made with d3.js",
         "url": "https://github.com/juliobguedes/portfolio-vis",
         "urlDisplay": "https://juliobguedes.github.io/portfolio-vis"
