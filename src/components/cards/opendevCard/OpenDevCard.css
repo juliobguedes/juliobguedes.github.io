@@ -1,0 +1,39 @@
+.opendev-container {
+    background-color: white;
+    box-shadow: 5px 5px 5px #555;
+    border-radius: 2px;
+    margin-bottom: 3%;
+    padding: 0% 5%;
+    transition: 0.3s ease-in-out;
+}
+
+.opendev-container:hover {
+    box-shadow: 7px 7px 7px #555;
+}
+
+.opendev-logo-img {
+    max-height: 20vh;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+    .opendev-container {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+    }
+
+    .opendev-description {
+        grid-row: 1;
+        grid-column: 2;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .opendev-logo-area {
+        grid-row: 1;
+        grid-column: 1;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+}

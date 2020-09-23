@@ -2,12 +2,12 @@ import React from 'react';
 import Project from '../cards/project/Project';
 import './WebProjects.css';
 
-const webProjects = require('../../lib/projects.json').web;
+const { web } = require('../../lib/projects.json');
 
 const WebProjects = () => (
     <div className="webproj-container">
         <div className="webproj-style">
-            {webProjects.map(web => <Project key={web.id} {...web} />)}
+            {web.map(wbProj => <Project key={wbProj.id} {...wbProj} />)}
         </div>
         <div className="webproj-text-wrapper">
             <h1>Web Projects</h1>

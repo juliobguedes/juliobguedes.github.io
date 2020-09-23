@@ -1,11 +1,14 @@
 import React from 'react';
+import Project from '../cards/project/Project';
 
 import './Writing.css';
+
+const { writing } = require('../../lib/projects.json');
 
 const Writing = () => (
     <div className="writing-container">
         <div className="writing-style">
-            <p>Somehthing else here...</p>
+            {writing.map(post => <Project key={post.id} {...post} />)}
         </div>
         <div className="writing-text-wrapper">
             <h1 className="white">Writing</h1>
