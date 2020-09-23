@@ -2,17 +2,17 @@
 
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
-import './Skill.css';
+import './Project.css';
 
 type SkillProps = {
-    name: string,
-    desc: string,
+    title: string,
+    description: string,
     repoUrl: string,
     liveUrl: string,
 };
 
 const Skill = ({
-    name: title, desc, repoUrl, liveUrl,
+    title, description, repoUrl, liveUrl,
 }: SkillProps) => (
     <div className="container">
         <div className="title-grid">
@@ -27,7 +27,7 @@ const Skill = ({
         </div>
         <p className="fontSizeC">
             <a href={repoUrl} target="_blank" rel="noopener noreferrer">
-                {desc}
+                {description}
             </a>
         </p>
     </div>

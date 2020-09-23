@@ -1,0 +1,40 @@
+{
+    "web": [{
+        "id": 1,
+        "title": "Tormenta Spellbook",
+        "description": "A simple website containing Tormenta's Spells",
+        "repoUrl": "https://github.com/juliobguedes/TormentaSpellbook",
+        "liveUrl": "https://juliobguedes.github.io/TormentaSpellbook"
+    },{
+        "id": 2,
+        "title": "Old(er) Portfolio",
+        "description": "My old and grumpy portfolio made with Angular.js",
+        "repoUrl": "https://github.com/juliobguedes/olderportfolio",
+        "liveUrl": "https://juliobguedes.github.io/olderportfolio"
+    },{
+        "id": 3,
+        "title": "MusicHub",
+        "description": "A simple website made in Software Project I class",
+        "repoUrl": "https://github.com/juliobguedes/MusicHub",
+        "liveUrl": "https://juliobguedes.github.io/MusicHub"
+    }],
+    "datascience": [{
+        "id": 1,
+        "title": "Analytics",
+        "description": "A series of posts in R with data analysis",
+        "repoUrl": "https://github.com/juliobguedes/descriptive-data-science",
+        "liveUrl": "https://juliobguedes.github.io/portfolio-vis"
+    }, {
+        "id": 2,
+        "title": "Data-Viz",
+        "description": "A data viz portfolio made with d3.js",
+        "repoUrl": "https://github.com/juliobguedes/portfolio-vis",
+        "liveUrl": "https://juliobguedes.github.io/portfolio-vis"
+    }, {
+        "id": 3,
+        "title": "Machine Learning",
+        "description": "A series of Jupyter Notebooks with Machine Learning examples",
+        "repoUrl": "https://github.com/juliobguedes/predictive-data-science",
+        "liveUrl": "https://juliobguedes.github.io/portfolio-vis"
+    }]
+}
