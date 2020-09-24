@@ -8,14 +8,13 @@ const AboutText = () => (
         <p>
             I am a brazilian undergraduate student and Master&apos;s candidate
             in Computer Science at the Federal University of Campina Grande (UFCG).
-            I am currently developing in the field of Natural Language Processing (NLP)
-            in a project in partnership with Dell EMC, and researching in Recommender Systems
-            and related topics.
+            I am currently working with Natural Language Processing (NLP) in a
+            project in partnership with Dell EMC, and researching in Recommender Systems.
         </p>
         <p>
-            During my undergraduate course I have worked with both Web and Mobile development, using
-            Angular.JS and React Native respectively. I am now focused in Data Analysis and
-            Visualization, and Machine Learning with a special interest in Deep Learning.
+            During my undergraduate course I have worked with both Web and Mobile development,
+            using Angular.JS and React Native. I am now focusing in Data Analysis and
+            Visualization, and Machine Learning with a special interest in Deep Learning topics.
         </p>
     </div>
 );

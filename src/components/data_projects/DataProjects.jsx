@@ -11,8 +11,7 @@ const DataProjects = () => (
             <p className="font-style">
                 Since I started working with and learning about Data Science,
                 I have been trying to learn more and more. In this section you
-                are able to see some of my notebooks and visualizations. I have
-                also participated in Kaggle Challenges.
+                are able to check out my Data Science projects.
             </p>
         </div>
         <div className="dsproj-style">

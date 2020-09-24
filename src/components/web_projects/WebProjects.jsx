@@ -12,7 +12,7 @@ const WebProjects = () => (
         <div className="webproj-text-wrapper">
             <h1>Web Projects</h1>
             <p className="font-style">
-                Along the undergraduate course, I have developed a few projects
+                Along the undergraduate course, I developed a few projects
                 by myself or with friends. Some of them have been developed
                 during classes, others were just for fun and enjoying what we imagined.
             </p>

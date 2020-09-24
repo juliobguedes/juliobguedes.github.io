@@ -13,7 +13,7 @@ const Writing = () => (
         <div className="writing-text-wrapper">
             <h1 className="white">Writing</h1>
             <p className="font-style white">
-                I also fancy teaching, and writing is the technology that made
+                I also enjoy teaching, and writing is the technology that made
                 possible for us to share our knowledge since the beginning of the
                 civiliations. Publishing what I know, in Portuguese, is the way
                 I found to help those who want to learn about Coding Skills in Brazil
