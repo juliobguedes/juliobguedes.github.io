@@ -13,9 +13,10 @@ const Writing = () => (
         <div className="writing-text-wrapper">
             <h1 className="white">Writing</h1>
             <p className="font-style white">
-                Along the undergraduate course, I have developed a few projects
-                by myself or with friends. Some of them have been developed
-                during classes, others were just for fun and enjoying what we imagined.
+                I also fancy teaching, and writing is the technology that made
+                possible for us to share our knowledge since the beginning of the
+                civiliations. Publishing what I know, in Portuguese, is the way
+                I found to help those who want to learn about Coding Skills in Brazil
             </p>
         </div>
     </div>
