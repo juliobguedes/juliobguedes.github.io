@@ -1,71 +1,62 @@
 @media screen and (min-width: 769px) and (max-width: 1440px) {
-    .contact-card-container:nth-child(odd) {
-        grid-column: 1;
-    }
-    
-    .contact-card-container:nth-child(even) {
-        grid-column: 3;
-    }
-
     .contact-card-container {
-        display: grid;
-        justify-content: center;
-        align-items: center;
         margin: 2% 15%;
-        border: 2px solid black;
-        border-radius: 1px;
-    
-        color: black;
-    
-        outline: none;
-        transition: 0.3s ease-in-out;
-    }
-
-    .linkedin:hover {
-        background-color: #4875B4;
-        color: white;
-        border: 2px solid #4875B4;
-    }
-    
-    .twitter:hover {
-        background-color: #1DA1F2;
-        color: white;
-        border: 2px solid #1DA1F2;
-    }
-    
-    .github:hover {
-        background-color: #24292e;
-        color: white;
-        border: 2px solid #24292e;
-    }
-    
-    .email:hover {
-        background-color: #c71610;
-        color: white;
-        border: 2px solid #c71610;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .contact-card-container {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-    }
+.contact-card-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
 
-    .linkedin:hover {
-        color: #4875B4;
-    }
-    
-    .twitter:hover {
-        color: #1DA1F2;
-    }
-    
-    .github:hover {
-        color: #24292e;
-    }
-    
-    .email:hover {
-        color: #c71610;
-    }
+    background-color: white;
+    color: black;
+    transition: 0.3s ease-in-out;
+
+    border-radius: 1px;
+    outline: none;
+}
+
+.linkedin {
+    grid-area: linkedin;
+    color: #4875B4;
+}
+
+.linkedin:hover {
+    background-color: #4875B4;
+    color: white;
+}
+
+.twitter {
+    grid-area: twitter;
+    color: #1DA1F2;
+}
+
+.twitter:hover {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+.github {
+    grid-area: github;
+    color: #24292e;
+}
+
+.github:hover {
+    background-color: #24292e;
+    color: white;
+}
+
+.email {
+    grid-area: mail;
+    color: #c71610;
+}
+
+.email:hover {
+    background-color: #c71610;
+    color: white;
+}
+
+.white {
+    color: white;
 }

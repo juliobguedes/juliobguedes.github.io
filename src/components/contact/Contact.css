@@ -1,32 +1,26 @@
 @media screen and (min-width: 769px) and (max-width: 1440px) {
     .contact-container {
-        grid-row-start: 2;
-        grid-column-start: 2;
-        display: grid;
-        grid-template-columns: 1.5fr 5% 1fr;
+        grid-template-columns: 1fr 0.1fr 1.5fr;
     }
 
     .contact-text-wrapper {
-        grid-column-start: 3;
+        grid-column-start: 1;
     }
 
     .contact-style {
-        grid-column-start: 1;
-        display: grid;
-        grid-template-columns: 1fr 3% 1fr;
+        grid-column-start: 3;
+        grid-template-columns: 1fr 0.1fr 1fr 0.1fr 1fr 0.1fr 1fr;
+        grid-template-rows: 0.7fr 1fr 0.7fr;
     }
 }
 
 @media screen and (max-width: 768px) {
     .contact-container {
-        grid-row-start: 2;
-        grid-column-start: 2;
-        display: grid;
-        grid-template-rows: 1fr 0,2fr;
+        grid-template-rows: 1fr 1fr;
     }
 
     .contact-text-wrapper {
-        grid-row-start: 1;
+        grid-row-start: 2;
     }
 
     .contact-text-wrapper > h1 {
@@ -34,16 +28,30 @@
     }
 
     .contact-style {
-        grid-row-start: 2;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-row-start: 1;
+        grid-template-columns: 1fr 0.3fr 1fr 0.3f 1fr 0.3fr 1fr;
+        grid-template-rows: 0.5fr 1fr 0.5fr;
     }
+}
+
+.contact-container {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    display: grid;
 }
 
 .contact-text-wrapper {
     display: grid;
     justify-content: center;
     align-content: center;
+}
+
+.contact-style {
+    display: grid;
+    grid-template-areas:
+        ". . . . . . ."
+        "twitter . linkedin . github . mail"
+        ". . . . . . .";
 }
 
 .font-style {
