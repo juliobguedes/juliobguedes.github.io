@@ -1,4 +1,4 @@
-@media screen and (min-width: 769px) and (max-width: 1440px) {
+@media screen and (min-width: 769px) {
     .contact-container {
         grid-template-columns: 1fr 0.1fr 1.5fr;
     }

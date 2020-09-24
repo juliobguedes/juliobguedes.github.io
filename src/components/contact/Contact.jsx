@@ -9,7 +9,7 @@ const Contact = () => (
         <div className="contact-text-wrapper">
             <h1 className="white">Contacts</h1>
             <p className="font-style white">
-                You can find me in the internet as @juliobguedes.
+                You can find me on the internet as @juliobguedes.
                 Feel free to reach out :)
             </p>
         </div>

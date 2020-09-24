@@ -1,4 +1,4 @@
-@media screen and (min-width: 769px) and (max-width: 1440px) {
+@media screen and (min-width: 769px) {
     .webproj-container {
         grid-template-columns: 1.5fr 0.1fr 1fr;
     }
