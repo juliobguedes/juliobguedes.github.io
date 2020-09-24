@@ -83,7 +83,7 @@
         },
         "andromedev": {
             "title": "AndromeDev",
-            "description": "A 9-week long event to stimulate the participation of UFCG students in Open Source projects",
+            "description": "A 9-week long event to increase the participation of UFCG students in Open Source projects",
             "repoUrl": "https://github.com/OpenDevUFCG/andromedev",
             "liveUrl": "https://andromedev.opendevufcg.org"
         }
