@@ -1,4 +1,4 @@
-@media screen and (min-width: 769px) and (max-width: 1440px) {
+@media screen and (min-width: 769px) {
     .writing-container {
         grid-template-columns: 1.5fr 0.1fr 1fr;
     }
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 768px) {
     .writing-container {
-        grid-template-rows: 0.7fr 1.5fr;
+        grid-template-rows: 0.5fr 1.5fr;
     }
 
     .writing-text-wrapper {

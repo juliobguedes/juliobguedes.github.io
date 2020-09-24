@@ -3,7 +3,7 @@ img {
     margin: 0 auto;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1440px) {
+@media screen and (min-width: 769px) {
     .about-container {
         grid-row-start: 2;
         grid-column-start: 2;

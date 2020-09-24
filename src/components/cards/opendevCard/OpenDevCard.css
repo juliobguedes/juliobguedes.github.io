@@ -11,11 +11,19 @@
     box-shadow: 7px 7px 7px #555;
 }
 
-.opendev-logo-img {
-    max-height: 20vh;
+@media screen and (min-width: 1441px) {
+    .opendev-logo-img {
+        max-height: 10vh;
+    }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1440px) {
+@media screen and (min-width: 426px) and (max-width: 1440px) {
+    .opendev-logo-img {
+        max-height: 20vh;
+    }
+}
+
+@media screen and (min-width: 426px) {
     .opendev-container {
         display: grid;
         grid-template-columns: 1.5fr 1fr;
@@ -35,5 +43,13 @@
         display: grid;
         align-items: center;
         justify-content: center;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .opendev-container {
+        display: grid;
+        grid-row: 1;
+        grid-column: 2;
     }
 }
