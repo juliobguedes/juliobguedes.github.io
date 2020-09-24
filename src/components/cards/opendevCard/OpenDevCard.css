@@ -5,10 +5,24 @@
     margin-bottom: 3%;
     padding: 0% 5%;
     transition: 0.3s ease-in-out;
+
+    display: grid;
 }
 
 .opendev-container:hover {
     box-shadow: 7px 7px 7px #555;
+}
+
+.opendev-description {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.opendev-logo-area {
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (min-width: 1441px) {
@@ -25,31 +39,35 @@
 
 @media screen and (min-width: 426px) {
     .opendev-container {
-        display: grid;
         grid-template-columns: 1.5fr 1fr;
     }
 
     .opendev-description {
         grid-row: 1;
         grid-column: 2;
-        display: grid;
-        align-items: center;
-        justify-content: center;
     }
 
     .opendev-logo-area {
         grid-row: 1;
         grid-column: 1;
-        display: grid;
-        align-items: center;
-        justify-content: center;
     }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .opendev-container {
-        display: grid;
         grid-row: 1;
         grid-column: 2;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .opendev-container {
+        grid-row: 1;
+        grid-column: 2;
+        grid-template-columns: 1.5fr 1fr;
+    }
+
+    .opendev-logo-img {
+        max-height: 10vh;
     }
 }
