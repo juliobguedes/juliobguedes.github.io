@@ -1,17 +1,7 @@
-# Portfolio 2018
+# My portfolio
 
----
-permalink: /index.html
----
+Hi! My name is Júlio Guedes and this is my Portfolio :)
 
-Simple portfolio made using React. The idea is to show a few about what I've learned and am learning while an undergraduate student in Computer Science. 
+Please checkout the deployed version [here](https://juliobguedes.dev).
 
-## To run
-
-```javascript
-yarn dev
-```
-
----
-
-Developed, maintained and updated by **Júlio Guedes**
+Developed, maintained and updated by **Júlio Guedes**.
