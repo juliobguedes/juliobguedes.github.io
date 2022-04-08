@@ -15,12 +15,13 @@ const Intro = () => (
         </div>
         <div className="fontSizeB">
             <p>
-                This page is a simple portfolio, and here you will discover
+                This page is my public portfolio, and here you will discover
                 a few things about me and about what I have been working with.
             </p>
         </div>
         <div className="fontSizeB">
-            <p>I hope you enjoy it! :)</p>
+            <p>To access my resumé, please press CTRL+P.</p>
+            <p>Feel free to reach out anytime :)</p>
         </div>
     </div>
 );

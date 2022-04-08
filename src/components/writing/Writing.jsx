@@ -5,10 +5,10 @@ import './Writing.css';
 
 const { writing } = require('../../lib/projects.json');
 
-const Writing = () => (
+const Writing = ({ bgColor }) => (
     <div className="writing-container">
         <div className="writing-style">
-            {writing.map(post => <Project key={post.id} {...post} />)}
+            {writing.map(post => <Project key={post.id} {...post} backgroundColor={bgColor} color='white' />)}
         </div>
         <div className="writing-text-wrapper">
             <h1 className="white">Writing</h1>

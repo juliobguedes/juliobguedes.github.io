@@ -12,8 +12,7 @@ import Contact from '../contact/Contact';
 
 import './App.css';
 
-// const currentColors = ['#00a86b', '#40e0d0', '#eeb868', '#d496a7', '#7b4b94'];
-const pastelColors = [
+const colors = [
     '#fcab64',
     '#fcd29f',
     '#a1fcdf',
@@ -21,31 +20,28 @@ const pastelColors = [
     '#424c55',
     '#342e37',
 ];
-const colors = pastelColors;
+
+const sections = [
+    About, DataProjects, WebProjects,
+    OpenSource, Writing, Contact
+];
+
+window.addEventListener("keydown", function (e) {
+    if (e.ctrlKey && e.keyCode === 80) {
+        e.preventDefault();
+    }
+});
 
 const App = () => (
     <div className="clean">
         <BigCard>
             <Intro />
         </BigCard>
-        <BigCard color={colors[0]}>
-            <About />
-        </BigCard>
-        <BigCard color={colors[1]}>
-            <DataProjects />
-        </BigCard>
-        <BigCard color={colors[2]}>
-            <WebProjects />
-        </BigCard>
-        <BigCard color={colors[3]}>
-            <OpenSource />
-        </BigCard>
-        <BigCard color={colors[4]}>
-            <Writing />
-        </BigCard>
-        <BigCard color={colors[5]}>
-            <Contact />
-        </BigCard>
+        {sections.map((Section, i) => (
+            <BigCard key={colors[i]} color={colors[i]}>
+                <Section bgColor={colors[i]} />
+            </BigCard>
+        ))}
     </div>
 );
 

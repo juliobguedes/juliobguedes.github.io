@@ -4,10 +4,10 @@ import './WebProjects.css';
 
 const { web } = require('../../lib/projects.json');
 
-const WebProjects = () => (
+const WebProjects = ({ bgColor }) => (
     <div className="webproj-container">
         <div className="webproj-style">
-            {web.map(wbProj => <Project key={wbProj.id} {...wbProj} />)}
+            {web.map(wbProj => <Project key={wbProj.id} {...wbProj} backgroundColor={bgColor} />)}
         </div>
         <div className="webproj-text-wrapper">
             <h1>Web Projects</h1>

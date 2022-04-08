@@ -5,27 +5,17 @@ import './OpenSource.css';
 
 const { opensource } = require('../../lib/projects.json');
 
-const OpenDevArea = () => (
-    <>
-        <OpenDevCard {...opensource.opendevufcg} />
-        <div className="osproj-area">
-            <Project {...opensource.hacktoberfest} />
-            <Project {...opensource.andromedev} />
-        </div>
-    </>
-);
-
-const OpenSource = () => (
+const OpenSource = ({ bgColor }) => (
     <div className="osproj-container">
         <div className="osproj-text-wrapper">
             <h1>Open Source</h1>
             <p className="font-style">
-                I am an Open Source enthusiast and usually trying to convince
+                {`I am an Open Source enthusiast and usually trying to convince
                 someone to contribute to open source projects. With that feeling,
                 me and my friends at UFCG started an organization for Open Source
-                development inside the university: the
+                development inside the university: the `}
                 <a href="https://opendevufcg.org" rel="noopener noreferrer" target="_blank">
-                    {' OpenDevUFCG'}
+                    OpenDevUFCG
                 </a>
                 . The organization is now a reference within the University community,
                 and we are always trying to innovate and impact with our events. Be
@@ -33,7 +23,8 @@ const OpenSource = () => (
             </p>
         </div>
         <div className="osproj-style">
-            <OpenDevArea />
+            <Project {...opensource.hacktoberfest} backgroundColor={bgColor} />
+            <Project {...opensource.andromedev} backgroundColor={bgColor} />
         </div>
     </div>
 );

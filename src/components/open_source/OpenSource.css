@@ -9,19 +9,15 @@
 
     .osproj-style {
         grid-column-start: 3;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-
-    .osproj-area {
         display: grid;
         grid-template-columns: 1fr 0.1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .osproj-container {
-        grid-template-rows: 0.5fr 1.5fr;
+        grid-template-rows: 1fr 0.5fr;
     }
 
     .osproj-text-wrapper {
@@ -30,14 +26,8 @@
 
     .osproj-style {
         grid-row-start: 2;
-        grid-template-columns: 3% 1fr 3%;
-        grid-template-rows: repeat(2, 1fr);
-    }
-
-    .osproj-area {
-        grid-column: 2;
-        display: grid;
         grid-template-columns: 1fr 0.1fr 1fr;
+        /* grid-template-rows: repeat(2, 1fr); */
     }
 }
 
