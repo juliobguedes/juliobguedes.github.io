@@ -3,14 +3,17 @@ import AppContext from '../app/AppContext';
 import Project from '../cards/project/Project';
 import './Section.css';
 
-const HeaderAndText = ({ title, text, textColor }) => (
-    <div className="section-text-wrapper">
-        <h1>{title}</h1>
-        <p className="section-font-style">
-            {text}
-        </p>
-    </div>
-);
+const HeaderAndText = ({ title, text, textColor }) => {
+    const cname = `section-text-wrapper text-${textColor}`
+    return (
+        <div className={cname}>
+            <h1>{title}</h1>
+            <p className="section-font-style">
+                {text}
+            </p>
+        </div>
+    );
+};
 
 const CardSequence = ({ cardData, bgColor }) => (
     <div className="section-card-sequence">
