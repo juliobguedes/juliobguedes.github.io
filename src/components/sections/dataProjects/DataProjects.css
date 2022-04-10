@@ -1,4 +1,19 @@
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1441px) {
+    .dsproj-container {
+        grid-template-columns: 1fr 0.1fr 2fr;
+    }
+
+    .dsproj-text-wrapper {
+        grid-column-start: 1;
+    }
+
+    .dsproj-style {
+        grid-column-start: 3;
+        grid-template-columns: 1fr 0.05fr 1fr 0.05fr 1fr;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
     .dsproj-container {
         grid-template-columns: 1fr 0.1fr 1.5fr;
     }

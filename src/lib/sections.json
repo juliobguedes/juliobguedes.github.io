@@ -1,0 +1,26 @@
+{
+    "dataScience": {
+        "title": "Data-Related Projects",
+        "text": "Since I started working with and learning about Data Science, I have been trying to learn more and more. In this section you are able to check out some of my Data Science projects.",
+        "textColor": "black",
+        "cardData": "dataScience"
+    },
+    "webProjects": {
+        "title": "Web Projects",
+        "text": "I have developed a few projects by myself or with friends. Some of them have been developed during classes, others were just for fun and enjoying what we imagined.",
+        "textColor": "black",
+        "cardData": "dataScience"
+    },
+    "openSource": {
+        "title": "Open Source",
+        "text": "I am an Open Source enthusiast and usually trying to convince someone to contribute to open source projects. With that feeling, me and my friends at UFCG started an organization for Open Source development inside the university: the OpenDevUFCG. The organization is now a reference within the University community, and we are always trying to innovate and impact with our events. Be welcome to check out our pages :)",
+        "textColor": "black",
+        "cardData": "openSource"
+    },
+    "writing": {
+        "title": "Writing",
+        "text": "I also enjoy teaching, and writing is the technology that made possible for us to share our knowledge since the beginning of the civilizations. Publishing what I know, in Portuguese, is the way I found to help those who want to learn about coding in Brazil",
+        "textColor": "white",
+        "cardData": "dataScience"
+    }
+}

@@ -1,8 +1,8 @@
 import React from 'react';
-import Project from '../cards/project/Project';
+import Project from '../../cards/project/Project';
 import './WebProjects.css';
 
-const { web } = require('../../lib/projects.json');
+const { web } = require('../../../lib/projects.json');
 
 const WebProjects = ({ bgColor }) => (
     <div className="webproj-container">
@@ -12,9 +12,9 @@ const WebProjects = ({ bgColor }) => (
         <div className="webproj-text-wrapper">
             <h1>Web Projects</h1>
             <p className="font-style">
-                Along the undergraduate course, I developed a few projects
-                by myself or with friends. Some of them have been developed
-                during classes, others were just for fun and enjoying what we imagined.
+                I have developed a few projects by myself or with friends.
+                Some of them have been developed during classes, others
+                were just for fun and enjoying what we imagined.
             </p>
         </div>
     </div>

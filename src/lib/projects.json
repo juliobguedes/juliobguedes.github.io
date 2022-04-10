@@ -24,7 +24,7 @@
         "repoUrl": "https://github.com/juliobguedes/MusicHub",
         "liveUrl": "https://juliobguedes.dev/MusicHub"
     }],
-    "datascience": [{
+    "dataScience": [{
         "id": 7,
         "title": "Data-Viz Notebooks",
         "description": "Data visualization notebooks created during the Data Visualization class during my Masters Degree",
@@ -67,27 +67,20 @@
         "repoUrl": "https://github.com/juliobguedes/portfolio-vis",
         "liveUrl": "https://juliobguedes.github.io/portfolio-vis"
     }],
-    "opensource": {
-        "opendevufcg": {
-            "title": "OpenDevUFCG",
-            "description": "Developing for the comunity, for the students, for UFCG, for you. From students, to students",
-            "repoUrl": "https://github.com/OpenDevUFCG",
-            "liveUrl": "https://opendevufcg.org",
-            "imageUrl": "https://opendevufcg.org/home/img/opendevufcg_logo.svg"
-        },
-        "hacktoberfest": {
+    "openSource": [{
+            "id": 1,
             "title": "Hacktoberfest OpenDevUFCG",
             "description": "The usual October Open Source celebration, now tailored for UFCG students",
             "repoUrl": "https://github.com/OpenDevUFCG/hacktoberfest",
             "liveUrl": "https://opendevufcg.org/hacktoberfest"
-        },
-        "andromedev": {
+        }, {
+            "id": 2,
             "title": "AndromeDev",
             "description": "A 9-week long event to increase the participation of UFCG students in Open Source projects",
             "repoUrl": "https://github.com/OpenDevUFCG/andromedev",
             "liveUrl": "https://andromedev.opendevufcg.org"
         }
-    },
+    ],
     "writing": [{
         "id": 5,
         "title": "Data Science in Python for Beginners",

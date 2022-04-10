@@ -10,7 +10,7 @@
     .osproj-style {
         grid-column-start: 3;
         display: grid;
-        grid-template-columns: 1fr 0.1fr 1fr;
+        grid-template-columns: 1fr 0.05fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
 }
@@ -26,7 +26,7 @@
 
     .osproj-style {
         grid-row-start: 2;
-        grid-template-columns: 1fr 0.1fr 1fr;
+        grid-template-columns: 1fr 0.05fr 1fr;
         /* grid-template-rows: repeat(2, 1fr); */
     }
 }

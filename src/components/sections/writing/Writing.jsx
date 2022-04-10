@@ -1,9 +1,9 @@
 import React from 'react';
-import Project from '../cards/project/Project';
+import Project from '../../cards/project/Project';
 
 import './Writing.css';
 
-const { writing } = require('../../lib/projects.json');
+const { writing } = require('../../../lib/projects.json');
 
 const Writing = ({ bgColor }) => (
     <div className="writing-container">
@@ -15,8 +15,8 @@ const Writing = ({ bgColor }) => (
             <p className="font-style white">
                 I also enjoy teaching, and writing is the technology that made
                 possible for us to share our knowledge since the beginning of the
-                civiliations. Publishing what I know, in Portuguese, is the way
-                I found to help those who want to learn about Coding Skills in Brazil
+                civilizations. Publishing what I know, in Portuguese, is the way
+                I found to help those who want to learn about coding in Brazil
             </p>
         </div>
     </div>
