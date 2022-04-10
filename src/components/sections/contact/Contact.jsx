@@ -1,6 +1,6 @@
 import React from 'react';
 import AppContext from '../../app/AppContext';
-import ContactCard from '../../cards/contact/ContactCard';
+import { ContactCard } from '../../common';
 
 import './Contact.css';
 

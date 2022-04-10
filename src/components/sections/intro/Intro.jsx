@@ -20,7 +20,7 @@ const Intro = () => (
             </p>
         </div>
         <div className="fontSizeB">
-            <p>To open my resumé, please press CTRL+P or click <a href="./JulioGuedes_Current.pdf" target="_blank">here</a>.</p>
+            <p>Please press CTRL+P or click on the link to open my <a href="./JulioGuedes_Current.pdf" target="_blank">resumé</a>.</p>
             <p>Feel free to reach out anytime :)</p>
         </div>
     </div>

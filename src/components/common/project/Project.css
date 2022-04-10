@@ -76,9 +76,3 @@
 .imgSize {
     height: 32px;
 }
-
-.highlight-text {
-    padding: .25em 0;
-    background: #FFC107;
-    box-shadow: .3em 0 0 #FFC107, -.3em 0 0 #FFC107;
-}

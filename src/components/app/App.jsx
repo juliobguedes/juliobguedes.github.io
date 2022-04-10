@@ -2,7 +2,7 @@
 
 import React from 'react';
 import AppContext from './AppContext';
-import BigCard from '../cards/bigCard/BigCard';
+import { BigCard } from '../common';
 
 import {
     Intro, About, Contact

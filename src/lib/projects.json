@@ -1,4 +1,50 @@
 {
+    "experience": [{
+        "id": 5,
+        "title": "Dell Advanced Intelligent Channels",
+        "lab": "Data Mining Laboratory",
+        "position": "Research Team Leader",
+        "description": "Team leader in R&D project in partnership with Dell EMC. Responsible for planning and executing tasks seeking enhancements to customer service and client support through Natural Language Processing and Machine Learning",
+        "timePeriod": "March/2021 - February/2022",
+        "location": "Campina Grande, Brazil"
+    }, {
+        "id": 4,
+        "title": "Dell Email Automation",
+        "lab": "Data Mining Laboratory",
+        "position": "Data Science Intern",
+        "description": "R&D project in partnership with Dell EMC. Responsible for executing tasks using Natural Language Processing and Machine Learning for Smart Replies and Email Automation.",
+        "timePeriod": "October/2019 - September/2020",
+        "location": "Campina Grande, Brazil"
+    }, {
+        "id": 3,
+        "title": "Fretei",
+        "lab": "Computational Perception Laboratory",
+        "position": "Mobile Developer Intern",
+        "description": "R&D project focused on building Web and Mobile platforms in the context of transport and traffic. Responsible for the development of the mobile application prototype using React Native.",
+        "timePeriod": "June/2019 - September/2019",
+        "location": "Campina Grande, Brazil"
+    }, {
+        "id": 2,
+        "title": "ePol",
+        "lab": "Software Practices Laboratory",
+        "position": "Software Engineer Intern",
+        "description": "RD&I project in cooperation with Brazilian Federal Police, aiming to build a Web System to assist law enforcement activities and research about software architecture, evolution, and distributed development. My main contribution was the addition of static analysis and new testing frameworks, increasing the safety of our code and improving the code review process.",
+        "timePeriod": "June/2018 - May/2019",
+        "location": "Campina Grande, Brazil"
+    }],
+    "education": [{
+        "id": 2,
+        "title": "Master's degree in Computer Science",
+        "description": "Master's candidate in C.S. currently researching about Recommender Systems and Natural Language Processing.",
+        "timePeriod": "March/2021 - December/2022",
+        "location":"Campina Grande, Brazil"
+    }, {
+        "id": 1,
+        "title": "Bachelor's degree in Computer Science",
+        "description": "Bachelor in C.S., focused in learning about Web and Mobile Development and researched about Machine Learning, Natural Language Processing and Recommender Systems during the undergraduate course.",
+        "timePeriod": "June/2016 - December/2020",
+        "location":"Campina Grande, Brazil"
+    }],
     "web": [{
         "id": 4,
         "title": "Tormenta",
@@ -68,19 +114,18 @@
         "liveUrl": "https://juliobguedes.github.io/portfolio-vis"
     }],
     "openSource": [{
-            "id": 1,
-            "title": "Hacktoberfest OpenDevUFCG",
-            "description": "The usual October Open Source celebration, now tailored for UFCG students",
-            "repoUrl": "https://github.com/OpenDevUFCG/hacktoberfest",
-            "liveUrl": "https://opendevufcg.org/hacktoberfest"
-        }, {
-            "id": 2,
-            "title": "AndromeDev",
-            "description": "A 9-week long event to increase the participation of UFCG students in Open Source projects",
-            "repoUrl": "https://github.com/OpenDevUFCG/andromedev",
-            "liveUrl": "https://andromedev.opendevufcg.org"
-        }
-    ],
+        "id": 2,
+        "title": "Hacktoberfest OpenDevUFCG",
+        "description": "The usual October Open Source celebration, now tailored for UFCG students",
+        "repoUrl": "https://github.com/OpenDevUFCG/hacktoberfest",
+        "liveUrl": "https://opendevufcg.org/hacktoberfest"
+    }, {
+        "id": 1,
+        "title": "AndromeDev",
+        "description": "A 9-week long event to increase the participation of UFCG students in Open Source projects",
+        "repoUrl": "https://github.com/OpenDevUFCG/andromedev",
+        "liveUrl": "https://andromedev.opendevufcg.org"
+    }],
     "writing": [{
         "id": 5,
         "title": "Data Science in Python for Beginners",
