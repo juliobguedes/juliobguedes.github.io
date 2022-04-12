@@ -27,25 +27,57 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .left-section-container {
-        grid-template-rows: 0.5fr 1.5fr;
+@media screen and (min-width: 769px) {
+    .left-section-container > .section-text-wrapper {
+        grid-column-start: 1;
     }
-
-    .right-section-container {
-        grid-template-rows: 0.5fr 1.5fr;
+    
+    .left-section-container > .section-card-sequence {
+        grid-column-start: 3;
     }
-
-    .section-card-sequence {
-        grid-row-start: 2;
-        grid-template-columns: 3% 1fr 3%;
+    
+    .left-section-container > .section-experience-sequence {
+        grid-column-start: 3;
+    }
+    
+    .right-section-container > .section-text-wrapper {
+        grid-column-start: 3;
+    }
+    
+    .right-section-container > .section-card-sequence {
+        grid-column-start: 1;
+    }
+    
+    .right-section-container > .section-experience-sequence {
+        grid-column-start: 1;
     }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
     .section-card-sequence {
         grid-row-start: 2;
+        grid-column: 1;
         grid-template-columns: 1fr 0.05fr 1fr;
+    }
+
+    .section-experience-sequence {
+        grid-row-start: 2;
+        grid-column: 1;
+        grid-template-columns: 3% 1fr 3%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .section-card-sequence {
+        grid-row-start: 2;
+        grid-column: 1;
+        grid-template-columns: 3% 1fr 3%;
+    }
+
+    .section-experience-sequence {
+        grid-row-start: 2;
+        grid-column: 1;
+        grid-template-columns: 3% 1fr 3%;
     }
 }
 
@@ -75,30 +107,6 @@
     display: grid;
     justify-content: center;
     align-content: center;
-}
-
-.left-section-container > .section-text-wrapper {
-    grid-column-start: 1;
-}
-
-.left-section-container > .section-card-sequence {
-    grid-column-start: 3;
-}
-
-.left-section-container > .section-experience-sequence {
-    grid-column-start: 3;
-}
-
-.right-section-container > .section-text-wrapper {
-    grid-column-start: 3;
-}
-
-.right-section-container > .section-card-sequence {
-    grid-column-start: 1;
-}
-
-.right-section-container > .section-experience-sequence {
-    grid-column-start: 1;
 }
 
 .section-font-style {

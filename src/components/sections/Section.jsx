@@ -15,22 +15,22 @@ const HeaderAndText = ({ title, text, textColor }) => {
     );
 };
 
-const CardSequence = ({ data, bgColor }) => (
+const CardSequence = ({ data, bgColor, textColor }) => (
     <div className="section-card-sequence">
-        {data.map(ds => <Project key={ds.id} {...ds} backgroundColor={bgColor} />)}
+        {data.map(ds => <Project key={ds.id} {...ds} backgroundColor={bgColor} color={textColor} />)}
     </div>
 );
 
-const ExperienceSequence = ({ data, bgColor }) => (
+const ExperienceSequence = ({ data, bgColor, textColor }) => (
     <div className="section-card-sequence">
         {data.map(ds => <Experience key={ds.id} {...ds} backgroundColor={bgColor} />)}
     </div>
 );
 
-const List = ({ cardType, data, bgColor }) => {
+const List = ({ cardType, data, bgColor, textColor }) => {
     const SequenceComponent = cardType === "Experience" ? ExperienceSequence : CardSequence;
     return (
-        <SequenceComponent data={data} bgColor={bgColor} />
+        <SequenceComponent data={data} bgColor={bgColor} textColor={textColor} />
     );
 };
 
@@ -39,7 +39,7 @@ const LeftSection = ({ title, text, textColor, data, cardType, bgColor }) => (
         {({ projects }) => (
             <div className="left-section-container">
                 <HeaderAndText title={title} text={text} textColor={textColor} />
-                <List cardType={cardType} data={projects[data]} bgColor={bgColor} />
+                <List cardType={cardType} data={projects[data]} bgColor={bgColor} textColor={textColor} />
             </div>
         )}
     </MainScreenContext.Consumer>
@@ -49,7 +49,7 @@ const RightSection = ({ title, text, textColor, data, cardType, bgColor }) => (
     <MainScreenContext.Consumer>
         {({ projects }) => (
             <div className="right-section-container">
-                <List cardType={cardType} data={projects[data]} bgColor={bgColor} />
+                <List cardType={cardType} data={projects[data]} bgColor={bgColor} textColor={textColor} />
                 <HeaderAndText title={title} text={text} textColor={textColor} />
             </div>
         )}
