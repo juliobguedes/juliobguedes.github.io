@@ -1,155 +1,334 @@
 {
-    "experience": [{
-        "id": 5,
-        "title": "Dell Advanced Intelligent Channels",
-        "lab": "Data Mining Laboratory",
-        "position": "Research Team Leader",
-        "description": "Team leader in R&D project in partnership with Dell EMC. Responsible for planning and executing tasks seeking enhancements to customer service and client support through Natural Language Processing and Machine Learning",
-        "timePeriod": "March/2021 - February/2022",
-        "location": "Campina Grande, Brazil"
-    }, {
-        "id": 4,
-        "title": "Dell Email Automation",
-        "lab": "Data Mining Laboratory",
-        "position": "Data Science Intern",
-        "description": "R&D project in partnership with Dell EMC. Responsible for executing tasks using Natural Language Processing and Machine Learning for Smart Replies and Email Automation.",
-        "timePeriod": "October/2019 - September/2020",
-        "location": "Campina Grande, Brazil"
-    }, {
-        "id": 3,
-        "title": "Fretei",
-        "lab": "Computational Perception Laboratory",
-        "position": "Mobile Developer Intern",
-        "description": "R&D project focused on building Web and Mobile platforms in the context of transport and traffic. Responsible for the development of the mobile application prototype using React Native.",
-        "timePeriod": "June/2019 - September/2019",
-        "location": "Campina Grande, Brazil"
-    }, {
-        "id": 2,
-        "title": "ePol",
-        "lab": "Software Practices Laboratory",
-        "position": "Software Engineer Intern",
-        "description": "RD&I project in cooperation with Brazilian Federal Police, aiming to build a Web System to assist law enforcement activities and research about software architecture, evolution, and distributed development. My main contribution was the addition of static analysis and new testing frameworks, increasing the safety of our code and improving the code review process.",
-        "timePeriod": "June/2018 - May/2019",
-        "location": "Campina Grande, Brazil"
-    }],
-    "education": [{
-        "id": 2,
-        "title": "Master's degree in Computer Science",
-        "description": "Master's candidate in C.S. currently researching about Recommender Systems and Natural Language Processing.",
-        "timePeriod": "March/2021 - December/2022",
-        "location":"Campina Grande, Brazil"
-    }, {
-        "id": 1,
-        "title": "Bachelor's degree in Computer Science",
-        "description": "Bachelor in C.S., focused in learning about Web and Mobile Development and researched about Machine Learning, Natural Language Processing and Recommender Systems during the undergraduate course.",
-        "timePeriod": "June/2016 - December/2020",
-        "location":"Campina Grande, Brazil"
-    }],
-    "web": [{
-        "id": 4,
-        "title": "Tormenta",
-        "description": "A character creation tool for TormentaRPG players. Made with NodeJS and React",
-        "repoUrl": "https://github.com/juliobguedes/tormenta",
-        "liveUrl": "https://juliobguedes.dev/tormenta/"
-    },{
-        "id": 3,
-        "title": "Tormenta Spellbook",
-        "description": "My very first website: a simple page containing Tormenta's Spells",
-        "repoUrl": "https://github.com/juliobguedes/TormentaSpellbook",
-        "liveUrl": "https://juliobguedes.dev/TormentaSpellbook"
-    },{
-        "id": 2,
-        "title": "Old(er) Portfolio",
-        "description": "My old and grumpy very first portfolio. Made with Angular.js",
-        "repoUrl": "https://github.com/juliobguedes/olderportfolio",
-        "liveUrl": "https://juliobguedes.dev/olderportfolio"
-    },{
-        "id": 1,
-        "title": "MusicHub",
-        "description": "A simple website made in Software Project I class",
-        "repoUrl": "https://github.com/juliobguedes/MusicHub",
-        "liveUrl": "https://juliobguedes.dev/MusicHub"
-    }],
-    "dataScience": [{
-        "id": 7,
-        "title": "Data-Viz Notebooks",
-        "description": "Data visualization notebooks created during the Data Visualization class during my Masters Degree",
-        "repoUrl": null,
-        "liveUrl": "https://observablehq.com/@juliobguedes?tab=notebooks"
-    }, {
-        "id": 6,
-        "title": "COVID-19 Timeline",
-        "description": "World timeline visualization for covid-19 pandemic spreading",
-        "repoUrl": "https://github.com/juliobguedes/covid",
-        "liveUrl": "https://juliobguedes.dev/covid/"
-    }, {
-        "id": 5,
-        "title": "Kaggle: COVID-19",
-        "description": "Kaggle Challenge contribution regarding the COVID-19 pandemic in Brazil",
-        "repoUrl": null,
-        "liveUrl": "https://www.kaggle.com/elloaguedes/panorama-do-covid-19-no-brasil"
-    }, {
-        "id": 4,
-        "title": "Kaggle: CareerCon",
-        "description": "Kaggle Challenge for classification of the floor a robot is walking over",
-        "repoUrl": "https://github.com/juliobguedes/CareerCon",
-        "liveUrl": null
-    }, {
-        "id": 3,
-        "title": "Machine Learning",
-        "description": "A series of Jupyter Notebooks with Machine Learning examples",
-        "repoUrl": "https://github.com/juliobguedes/predictive-data-science",
-        "liveUrl": null
-    }, {
-        "id": 2,
-        "title": "Analytics",
-        "description": "A series of posts in R with data analysis",
-        "repoUrl": "https://github.com/juliobguedes/descriptive-data-science",
-        "liveUrl": null
-    }, {
-        "id": 1,
-        "title": "Data-Viz",
-        "description": "A data viz portfolio made with d3.js",
-        "repoUrl": "https://github.com/juliobguedes/portfolio-vis",
-        "liveUrl": "https://juliobguedes.github.io/portfolio-vis"
-    }],
-    "openSource": [{
-        "id": 2,
-        "title": "Hacktoberfest OpenDevUFCG",
-        "description": "The usual October Open Source celebration, now tailored for UFCG students",
-        "repoUrl": "https://github.com/OpenDevUFCG/hacktoberfest",
-        "liveUrl": "https://opendevufcg.org/hacktoberfest"
-    }, {
-        "id": 1,
-        "title": "AndromeDev",
-        "description": "A 9-week long event to increase the participation of UFCG students in Open Source projects",
-        "repoUrl": "https://github.com/OpenDevUFCG/andromedev",
-        "liveUrl": "https://andromedev.opendevufcg.org"
-    }],
-    "writing": [{
-        "id": 5,
-        "title": "Data Science in Python for Beginners",
-        "description": "First post of the series, explaining how to setup Python in our personal computers. In partnership with ColaboraDados",
-        "liveUrl": "https://colaboradados.com.br/blogposts/analise-de-dados-em-pytho-pt1.html"
-    }, {
-        "id": 4,
-        "title": "Understanding JavaScript: Promises",
-        "description": "Promises can be a boogeyman when you are starting to code in JavaScript. This post is a Ridikulus",
-        "liveUrl": "https://dev.to/juliobguedes/entendendo-javascript-promises-4hep"
-    }, {
-        "id": 3,
-        "title": "Testing in JavaScript: Initial Concepts",
-        "description": "Front-end development is sometimes done without tests, but its never too late to fix that",
-        "liveUrl": "https://dev.to/opendevufcg/testes-em-javascript-conceitos-iniciais-1okj"
-    }, {
-        "id": 2,
-        "title": "Understanding Git: Branches",
-        "description": "Git is the perfect tech for coding in teams. Lets do it the right way using branches",
-        "liveUrl": "https://medium.com/@Juliobguedes/entendendo-git-branches-parte-2-3778f4258843"
-    },{
-        "id": 1,
-        "title": "Understanding Git: How to begin",
-        "description": "What is Git, how do we use it, how can we keep our code safe, and code everywhere",
-        "liveUrl": "https://medium.com/@Juliobguedes/entendendo-git-883464f379de"
-    }]
+    "en": {
+        "experience": [{
+            "id": 5,
+            "title": "Dell Advanced Intelligent Channels",
+            "lab": "Data Mining Laboratory",
+            "position": "Research Team Leader",
+            "description": "Team leader in R&D project in partnership with Dell EMC. Responsible for planning and executing tasks seeking enhancements to customer service and client support through Natural Language Processing and Machine Learning",
+            "timePeriod": "March/2021 - February/2022",
+            "location": "Campina Grande, Brazil"
+        }, {
+            "id": 4,
+            "title": "Dell Email Automation",
+            "lab": "Data Mining Laboratory",
+            "position": "Data Science Intern",
+            "description": "R&D project in partnership with Dell EMC. Responsible for executing tasks using Natural Language Processing and Machine Learning for Smart Replies and Email Automation.",
+            "timePeriod": "October/2019 - September/2020",
+            "location": "Campina Grande, Brazil"
+        }, {
+            "id": 3,
+            "title": "Fretei",
+            "lab": "Computational Perception Laboratory",
+            "position": "Mobile Developer Intern",
+            "description": "R&D project focused on building Web and Mobile platforms in the context of transport and traffic. Responsible for the development of the mobile application prototype using React Native.",
+            "timePeriod": "June/2019 - September/2019",
+            "location": "Campina Grande, Brazil"
+        }, {
+            "id": 2,
+            "title": "ePol",
+            "lab": "Software Practices Laboratory",
+            "position": "Software Engineer Intern",
+            "description": "RD&I project in cooperation with Brazilian Federal Police, aiming to build a Web System to assist law enforcement activities and research about software architecture, evolution, and distributed development. My main contribution was the addition of static analysis and new testing frameworks, increasing the safety of our code and improving the code review process.",
+            "timePeriod": "June/2018 - May/2019",
+            "location": "Campina Grande, Brazil"
+        }],
+        "education": [{
+            "id": 2,
+            "title": "Master's degree in Computer Science",
+            "description": "Master's candidate in C.S. currently researching about Recommender Systems and Natural Language Processing.",
+            "timePeriod": "March/2021 - December/2022",
+            "location":"Campina Grande, Brazil"
+        }, {
+            "id": 1,
+            "title": "Bachelor's degree in Computer Science",
+            "description": "Bachelor in C.S., focused in learning about Web and Mobile Development and researched about Machine Learning, Natural Language Processing and Recommender Systems during the undergraduate course.",
+            "timePeriod": "June/2016 - December/2020",
+            "location":"Campina Grande, Brazil"
+        }],
+        "web": [{
+            "id": 4,
+            "title": "Tormenta",
+            "description": "A character creation tool for TormentaRPG players. Made with NodeJS and React",
+            "repoUrl": "https://github.com/juliobguedes/tormenta",
+            "liveUrl": "https://juliobguedes.dev/tormenta/"
+        },{
+            "id": 3,
+            "title": "Tormenta Spellbook",
+            "description": "My very first website: a simple page containing Tormenta's Spells",
+            "repoUrl": "https://github.com/juliobguedes/TormentaSpellbook",
+            "liveUrl": "https://juliobguedes.dev/TormentaSpellbook"
+        },{
+            "id": 2,
+            "title": "Old(er) Portfolio",
+            "description": "My old and grumpy very first portfolio. Made with Angular.js",
+            "repoUrl": "https://github.com/juliobguedes/olderportfolio",
+            "liveUrl": "https://juliobguedes.dev/olderportfolio"
+        },{
+            "id": 1,
+            "title": "MusicHub",
+            "description": "A simple website made in Software Project I class",
+            "repoUrl": "https://github.com/juliobguedes/MusicHub",
+            "liveUrl": "https://juliobguedes.dev/MusicHub"
+        }],
+        "dataScience": [{
+            "id": 7,
+            "title": "Data-Viz Notebooks",
+            "description": "Data visualization notebooks created during the Data Visualization class during my Masters Degree",
+            "repoUrl": null,
+            "liveUrl": "https://observablehq.com/@juliobguedes?tab=notebooks"
+        }, {
+            "id": 6,
+            "title": "COVID-19 Timeline",
+            "description": "World timeline visualization for covid-19 pandemic spreading",
+            "repoUrl": "https://github.com/juliobguedes/covid",
+            "liveUrl": "https://juliobguedes.dev/covid/"
+        }, {
+            "id": 5,
+            "title": "Kaggle: COVID-19",
+            "description": "Kaggle Challenge contribution regarding the COVID-19 pandemic in Brazil",
+            "repoUrl": null,
+            "liveUrl": "https://www.kaggle.com/elloaguedes/panorama-do-covid-19-no-brasil"
+        }, {
+            "id": 4,
+            "title": "Kaggle: CareerCon",
+            "description": "Kaggle Challenge for classification of the floor a robot is walking over",
+            "repoUrl": "https://github.com/juliobguedes/CareerCon",
+            "liveUrl": null
+        }, {
+            "id": 3,
+            "title": "Machine Learning",
+            "description": "A series of Jupyter Notebooks with Machine Learning examples",
+            "repoUrl": "https://github.com/juliobguedes/predictive-data-science",
+            "liveUrl": null
+        }, {
+            "id": 2,
+            "title": "Analytics",
+            "description": "A series of posts in R with data analysis",
+            "repoUrl": "https://github.com/juliobguedes/descriptive-data-science",
+            "liveUrl": null
+        }, {
+            "id": 1,
+            "title": "Data-Viz",
+            "description": "A data viz portfolio made with d3.js",
+            "repoUrl": "https://github.com/juliobguedes/portfolio-vis",
+            "liveUrl": "https://juliobguedes.github.io/portfolio-vis"
+        }],
+        "openSource": [{
+            "id": 3,
+            "title": "OpenDevUFCG",
+            "description": "Developing for the comunity, for the students, for UFCG, for you. From students, to students",
+            "repoUrl": "https://github.com/OpenDevUFCG",
+            "liveUrl": "https://opendevufcg.org"
+        }, {
+            "id": 2,
+            "title": "Hacktoberfest OpenDevUFCG",
+            "description": "The usual October Open Source celebration, now tailored for UFCG students",
+            "repoUrl": "https://github.com/OpenDevUFCG/hacktoberfest",
+            "liveUrl": "https://opendevufcg.org/hacktoberfest"
+        }, {
+            "id": 1,
+            "title": "AndromeDev",
+            "description": "A 9-week long event to increase the participation of UFCG students in Open Source projects",
+            "repoUrl": "https://github.com/OpenDevUFCG/andromedev",
+            "liveUrl": "https://andromedev.opendevufcg.org"
+        }],
+        "writing": [{
+            "id": 6,
+            "title": "Don't run. It might hurt.",
+            "description": "A text for reflection, making us think how healthy is our relation with work and study. Post written in partnership with OpenDevUFCG.",
+            "liveUrl": "https://dev.to/opendevufcg/nao-corra-pode-doer-1165"
+        }, {
+            "id": 5,
+            "title": "Data Science in Python for Beginners",
+            "description": "First post of the series, explaining how to setup Python in our personal computers. In partnership with ColaboraDados",
+            "liveUrl": "https://colaboradados.com.br/blogposts/analise-de-dados-em-pytho-pt1.html"
+        }, {
+            "id": 4,
+            "title": "Understanding JavaScript: Promises",
+            "description": "Promises can be a boogeyman when you are starting to code in JavaScript. This post is a Ridikulus",
+            "liveUrl": "https://dev.to/juliobguedes/entendendo-javascript-promises-4hep"
+        }, {
+            "id": 3,
+            "title": "Testing in JavaScript: Initial Concepts",
+            "description": "Front-end development is sometimes done without tests, but its never too late to fix that",
+            "liveUrl": "https://dev.to/opendevufcg/testes-em-javascript-conceitos-iniciais-1okj"
+        }, {
+            "id": 2,
+            "title": "Understanding Git: Branches",
+            "description": "Git is the perfect tech for coding in teams. Lets do it the right way using branches",
+            "liveUrl": "https://medium.com/@Juliobguedes/entendendo-git-branches-parte-2-3778f4258843"
+        },{
+            "id": 1,
+            "title": "Understanding Git: How to begin",
+            "description": "What is Git, how do we use it, how can we keep our code safe, and code everywhere",
+            "liveUrl": "https://medium.com/@Juliobguedes/entendendo-git-883464f379de"
+        }]
+    },
+    "pt": {
+        "experience": [{
+            "id": 5,
+            "title": "Dell Advanced Intelligent Channels",
+            "lab": "Laboratório de Mineração de Dados",
+            "position": "Líder de Equipe de Pesquisa",
+            "description": "Líder de Equipe em projeto P&D em parceria com a Dell EMC. Responsável pelo planejamento e execução de atividades gerando melhorias no serviço de atendimento ao consumidor pelo uso de técnicas de Processamento de Linguagem Natural e Aprendizagem de Máquina.",
+            "timePeriod": "Março/2021 - Fevereiro/2022",
+            "location": "Campina Grande, Brasil"
+        }, {
+            "id": 4,
+            "title": "Dell Email Automation",
+            "lab": "Laboratório de Mineração de Dados",
+            "position": "Estágio em Ciência de Dados",
+            "description": "Projeto P&D em parceria com a Dell EMC. Responsável pela execução de atividades usando Processamento de Linguagem Natural e Aprendizagem de Máquina no contexto de resposta automática de Emails.",
+            "timePeriod": "Outubro/2019 - Setembro/2020",
+            "location": "Campina Grande, Brasil"
+        }, {
+            "id": 3,
+            "title": "Fretei",
+            "lab": "Laboratório de Percepção Computacional",
+            "position": "Estágio em Desenvolvimento Mobile",
+            "description": "Projeto P&D com foco na construção de plataformas Web e Mobile no contexto de transporte e tráfego. Responsável pelo desenvolvimento do protótipo da aplicação mobile, usando React Native.",
+            "timePeriod": "Junho/2019 - Setembro/2019",
+            "location": "Campina Grande, Brasil"
+        }, {
+            "id": 2,
+            "title": "ePol",
+            "lab": "Laboratório de Práticas de Software",
+            "position": "Estágio em Engenharia de Software",
+            "description": "Projeto P&DI em cooperação com a Polícia Federal, com objetivo de criação de um sistema Web para auxílio da atividade legal, além de possibilitar a pesquisa sobre arquitetura e evolução de software, além de desenvolvimento distribuído. Minha principal contribuição se deu pela adição de análise estática e frameworks de teste, aumentando a segurança do código e aprimorando o processo de revisão de código.",
+            "timePeriod": "Junho/2018 - Maio/2019",
+            "location": "Campina Grande, Brasil"
+        }],
+        "education": [{
+            "id": 2,
+            "title": "Mestrado em Ciência da Computação",
+            "description": "Mestrando em Ciência da Computação, atualmente pesquisando sobre Sistemas de Recomendação e Processamento de Linguagem Natural.",
+            "timePeriod": "Março/2021 - Dezembro/2022",
+            "location":"Campina Grande, Brasil"
+        }, {
+            "id": 1,
+            "title": "Bacharelado em Ciência da Computação",
+            "description": "Graduação em Ciência da Computação, com foco no aprendizado de desenvolvimento de sistemas Web e Mobile, além de pesquisa sobre Aprendizagem de Máquina, Processamento de Linguagem Natural e Sistemas de Recomendação.",
+            "timePeriod": "Junho/2016 - Dezembro/2020",
+            "location":"Campina Grande, Brasil"
+        }],
+        "web": [{
+            "id": 4,
+            "title": "Tormenta",
+            "description": "Criação de uma ferramenta de criação de personagems para jogadores de TormentaRPG. Plataforma criada usando NodeJS e React.",
+            "repoUrl": "https://github.com/juliobguedes/tormenta",
+            "liveUrl": "https://juliobguedes.dev/tormenta/"
+        },{
+            "id": 3,
+            "title": "Tormenta Spellbook",
+            "description": "Meu primeiro site: uma página simples contendo as magias existentes no jogo TormentaRPG.",
+            "repoUrl": "https://github.com/juliobguedes/TormentaSpellbook",
+            "liveUrl": "https://juliobguedes.dev/TormentaSpellbook"
+        },{
+            "id": 2,
+            "title": "Portfólio antigo",
+            "description": "Meu primeiro e arcaico portfólio. Criado usando Angular.js.",
+            "repoUrl": "https://github.com/juliobguedes/olderportfolio",
+            "liveUrl": "https://juliobguedes.dev/olderportfolio"
+        },{
+            "id": 1,
+            "title": "MusicHub",
+            "description": "Um site simples feito usando Angular.JS para a disciplina de Sistemas da Informação 1.",
+            "repoUrl": "https://github.com/juliobguedes/MusicHub",
+            "liveUrl": "https://juliobguedes.dev/MusicHub"
+        }],
+        "dataScience": [{
+            "id": 7,
+            "title": "Notebooks de Visualização de Dados",
+            "description": "Visualizações de dados criadas durante o curso da disciplina de Visualização de Dados, no mestrado em Ciência da Computação.",
+            "repoUrl": null,
+            "liveUrl": "https://observablehq.com/@juliobguedes?tab=notebooks"
+        }, {
+            "id": 6,
+            "title": "Timeline da COVID-19",
+            "description": "Visualização temporal de como a pandemia de COVID-19 espalhou-se em 2020. O site está atualmente desatualizado devido às mudanças no fornecimento dos dados pela Universidade Johns Hopkins e pelo encerramento da divulgação de casos e óbitos de covid pelo Governo Federal.",
+            "repoUrl": "https://github.com/juliobguedes/covid",
+            "liveUrl": "https://juliobguedes.dev/covid/"
+        }, {
+            "id": 5,
+            "title": "Kaggle: COVID-19",
+            "description": "Desafio público no Kaggle à respeito da pandemia do COVID-19 no Brasil. Contribuição em código e ideias com o trabalho da prof. Dra. Elloá Guedes, da Universidade do Estado do Amazonas (UEA).",
+            "repoUrl": null,
+            "liveUrl": "https://www.kaggle.com/elloaguedes/panorama-do-covid-19-no-brasil"
+        }, {
+            "id": 4,
+            "title": "Kaggle: CareerCon",
+            "description": "Desafio público no Kaggle para a classificação em série temporal da superfície em que um robô estava andando. Ao fim da competição, fiquei classificado entre os 8% melhores competidores, dentre um total de 1443 participantes.",
+            "repoUrl": "https://github.com/juliobguedes/CareerCon",
+            "liveUrl": null
+        }, {
+            "id": 3,
+            "title": "Aprendizagem de Máquina",
+            "description": "Uma série de notebooks Jupyter com exemplos de Análises de dados e criação de modelos de Aprendizagem de Máquina.",
+            "repoUrl": "https://github.com/juliobguedes/predictive-data-science",
+            "liveUrl": null
+        }, {
+            "id": 2,
+            "title": "Análises de Dados.",
+            "description": "Uma série de posts em R contendo Análises de Dados de conjuntos distintos.",
+            "repoUrl": "https://github.com/juliobguedes/descriptive-data-science",
+            "liveUrl": null
+        }, {
+            "id": 1,
+            "title": "Data-Viz",
+            "description": "Um portfólio simples com Visualizações de Dados feitas usando D3.js.",
+            "repoUrl": "https://github.com/juliobguedes/portfolio-vis",
+            "liveUrl": "https://juliobguedes.github.io/portfolio-vis"
+        }],
+        "openSource": [{
+            "id": 3,
+            "title": "OpenDevUFCG",
+            "description": "Desenvolvendo para a comunidade, para os estudantes, para a UFCG, para você. De estudantes para estudantes.",
+            "repoUrl": "https://github.com/OpenDevUFCG",
+            "liveUrl": "https://opendevufcg.org"
+        }, {
+            "id": 2,
+            "title": "Hacktoberfest OpenDevUFCG",
+            "description": "A celebração de código aberto que já estamos acostumados, agora feita especialmente para os estudantes da UFCG.",
+            "repoUrl": "https://github.com/OpenDevUFCG/hacktoberfest",
+            "liveUrl": "https://opendevufcg.org/hacktoberfest"
+        }, {
+            "id": 1,
+            "title": "AndromeDev",
+            "description": "Um evento de mentoria de 9 semanas com o objetivo de incentivar o contato e a participação dos estudantes da UFCG em projetos de código aberto.",
+            "repoUrl": "https://github.com/OpenDevUFCG/andromedev",
+            "liveUrl": "https://andromedev.opendevufcg.org"
+        }],
+        "writing": [{
+            "id": 6,
+            "title": "Não corra. Pode doer.",
+            "description": "Uma reflexão em forma de texto, para pensarmos quão saudável é nossa relação com trabalho e estudo. Post feito em parceria com a OpenDevUFCG.",
+            "liveUrl": "https://dev.to/opendevufcg/nao-corra-pode-doer-1165"
+        }, {
+            "id": 5,
+            "title": "Análise de Dados em Python para Iniciantes",
+            "description": "Como configurar Python nos nossos computadores pessoais. Post feito em parceira com o @colaboradados",
+            "liveUrl": "https://colaboradados.com.br/blogposts/analise-de-dados-em-pytho-pt1.html"
+        }, {
+            "id": 4,
+            "title": "Entendendo JavaScript: Promises",
+            "description": "Promises podem ser um bicho-papão quando você está começando a programar em JavaScript. Esse post é um Ridikulus.",
+            "liveUrl": "https://dev.to/juliobguedes/entendendo-javascript-promises-4hep"
+        }, {
+            "id": 3,
+            "title": "Testes em JavaScript: Conceitos iniciais",
+            "description": "Desenvolvimento Front-End as vezes é feito sem testes. Nunca é tarde demais pra corrigir.",
+            "liveUrl": "https://dev.to/opendevufcg/testes-em-javascript-conceitos-iniciais-1okj"
+        }, {
+            "id": 2,
+            "title": "Entendendo Git: Branches",
+            "description": "Git é a tecnologia perfeita para programar em equipe. Vamos fazer do jeito certo, usando branches.",
+            "liveUrl": "https://medium.com/@Juliobguedes/entendendo-git-branches-parte-2-3778f4258843"
+        },{
+            "id": 1,
+            "title": "Entendendo Git: Como começar?",
+            "description": "O que é Git, como usamos, e como mantemos nosso código seguro para programar onde quisermos.",
+            "liveUrl": "https://medium.com/@Juliobguedes/entendendo-git-883464f379de"
+        }]
+    }
 }

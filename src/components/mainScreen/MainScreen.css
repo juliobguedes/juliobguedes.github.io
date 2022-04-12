@@ -1,0 +1,45 @@
+/* CSS */
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.justify-center {
+    justify-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fontSizeA {
+    font-size: 2.25em,
+}
+
+.fontSizeB {
+    font-size: 1.5em,
+}
+
+.fontSizeC {
+    font-size: 1.1rem,
+}
+
+.clean {
+    font-weight: 300;
+    font-family: 'Inconsolata', monospace;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}

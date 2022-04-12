@@ -1,40 +1,82 @@
 {
-    "experience": {
-        "title": "Experience",
-        "text": "This section lists my work experience, also present in my resumé. However, since the projects are owned by different clients I cannot provide links to the code.",
-        "textColor": "black",
-        "data": "experience",
-        "cardType": "Experience"
+    "en": {
+        "experience": {
+            "title": "Experience",
+            "text": "This section lists my work experience, also present in my resumé. However, since the projects are owned by different clients I cannot provide links to the code.",
+            "textColor": "black",
+            "data": "experience",
+            "cardType": "Experience"
+        },
+        "education": {
+            "title": "Education",
+            "text": "During my undergraduate course in Computer Science, I had the opportunity to participate in internships and with Web and Mobile development, learning and practicing software engineering skills. Later in the undergraduate course, I changed my focus to data-related projects, closer to research, which led me to a Master's degree in Computer Science, focusing on the subjects of Recommender Systems and Natural Language Processing.",
+            "textColor": "black",
+            "data": "education",
+            "cardType": "Experience"
+        },
+        "dataScience": {
+            "title": "Data-Related Projects",
+            "text": "Since I started working with and learning about Data Science, I have been learning more and more. In this section you are able to check out some of my data-related projects.",
+            "textColor": "black",
+            "data": "dataScience"
+        },
+        "webProjects": {
+            "title": "Web Projects",
+            "text": "I have developed a few projects by myself or with friends. Some of them have been developed during classes, others were just for fun and enjoying what we imagined.",
+            "textColor": "black",
+            "data": "web"
+        },
+        "openSource": {
+            "title": "Open Source",
+            "text": "I am an Open Source enthusiast and usually trying to convince someone to contribute to open source projects. With that feeling, me and my friends at UFCG started an organization for Open Source development inside the university: the OpenDevUFCG. The organization is now a reference within the University community, and we are always trying to innovate and impact with our events. Be welcome to check out our pages :)",
+            "textColor": "black",
+            "data": "openSource"
+        },
+        "writing": {
+            "title": "Writing",
+            "text": "I also enjoy teaching, and writing is the technology that made possible for us to share our knowledge since the beginning of the civilizations. Publishing what I know, in Portuguese, is the way I found to help those who want to learn about coding in Brazil",
+            "textColor": "white",
+            "data": "writing"
+        }
     },
-    "education": {
-        "title": "Education",
-        "text": "Example",
-        "textColor": "black",
-        "data": "education",
-        "cardType": "Experience"
-    },
-    "dataScience": {
-        "title": "Data-Related Projects",
-        "text": "Since I started working with and learning about Data Science, I have been learning more and more. In this section you are able to check out some of my data-related projects.",
-        "textColor": "black",
-        "data": "dataScience"
-    },
-    "webProjects": {
-        "title": "Web Projects",
-        "text": "I have developed a few projects by myself or with friends. Some of them have been developed during classes, others were just for fun and enjoying what we imagined.",
-        "textColor": "black",
-        "data": "dataScience"
-    },
-    "openSource": {
-        "title": "Open Source",
-        "text": "I am an Open Source enthusiast and usually trying to convince someone to contribute to open source projects. With that feeling, me and my friends at UFCG started an organization for Open Source development inside the university: the OpenDevUFCG. The organization is now a reference within the University community, and we are always trying to innovate and impact with our events. Be welcome to check out our pages :)",
-        "textColor": "black",
-        "data": "openSource"
-    },
-    "writing": {
-        "title": "Writing",
-        "text": "I also enjoy teaching, and writing is the technology that made possible for us to share our knowledge since the beginning of the civilizations. Publishing what I know, in Portuguese, is the way I found to help those who want to learn about coding in Brazil",
-        "textColor": "white",
-        "data": "dataScience"
+    "pt": {
+        "experience": {
+            "title": "Experiência",
+            "text": "Esta seção lista minha experiência de trabalho, como consta no meu resumé. Entretanto, como os projetos são propriedade dos diversos clientes, não é possível adicionar links para o código.",
+            "textColor": "black",
+            "data": "experience",
+            "cardType": "Experience"
+        },
+        "education": {
+            "title": "Educação",
+            "text": "Durante minha graduação em Ciência da Computação, tive a oportunidade de participar em estágios de desenvolvimento Web e Mobile, aprendendo e praticando técnicas de Engenharia de Software. Mais ao fim da graduação, mudei meu foco para projetos relacionados à dados, mais próximos de pesquisa, que me levaram a um mestrado com foco em Sistemas de Recomendação e Processamento de Linguagem Natural.",
+            "textColor": "black",
+            "data": "education",
+            "cardType": "Experience"
+        },
+        "dataScience": {
+            "title": "Projetos relacionados à Dados",
+            "text": "Desde que comecei a trabalhar com Dados e Ciência de Dados, aprendo mais e mais. Nesta seção, você pode conferir alguns dos meus projetos nesse contexto.",
+            "textColor": "black",
+            "data": "dataScience"
+        },
+        "webProjects": {
+            "title": "Projetos Web",
+            "text": "Desenvolvi alguns projetos sozinho, outros com amigos. Alguns foram parte de disciplinas, outros por diversão e para concretizar nossa imaginação.",
+            "textColor": "black",
+            "data": "web"
+        },
+        "openSource": {
+            "title": "Open Source",
+            "text": "Sou um entusiasta do código aberto, e frequentemente estou tentando convencer as pessoas a contribuir com projetos abertos. Com esse sentimento, eu e meus amigos na UFCG começamos uma organização para desenvolvimento de código aberto dentro da universidade: a OpenDevUFCG. A organização é agora referência dentro da universidade, e nós estamos sempre tentando inovar e impactar com nossos eventos. Te convido a conferir nossas páginas :)",
+            "textColor": "black",
+            "data": "openSource"
+        },
+        "writing": {
+            "title": "Escrita",
+            "text": "Também gosto bastante de ensinar, e a escrita é a tecnologia que nos permite compartilhar conhecimento desde o início das civilizações. Publicar o que sei, em Português, é a forma que encontrei de ajudar aqueles que querem aprender sobre programaçãio no Brasil.",
+            "textColor": "white",
+            "data": "writing"
+        }
     }
 }

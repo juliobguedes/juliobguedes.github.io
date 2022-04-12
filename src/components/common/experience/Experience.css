@@ -52,6 +52,6 @@
 }
 
 .experience-text-justify {
-    text-align: justify;
+    /* text-align: justify; */
     margin-top: 0;
 }

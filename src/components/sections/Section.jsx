@@ -1,5 +1,5 @@
 import React from 'react';
-import AppContext from '../app/AppContext';
+import MainScreenContext from '../mainScreen/MainScreenContext';
 import { Experience, Project } from '../common';
 import './Section.css';
 
@@ -35,25 +35,25 @@ const List = ({ cardType, data, bgColor }) => {
 };
 
 const LeftSection = ({ title, text, textColor, data, cardType, bgColor }) => (
-    <AppContext.Consumer>
+    <MainScreenContext.Consumer>
         {({ projects }) => (
             <div className="left-section-container">
                 <HeaderAndText title={title} text={text} textColor={textColor} />
                 <List cardType={cardType} data={projects[data]} bgColor={bgColor} />
             </div>
         )}
-    </AppContext.Consumer>
+    </MainScreenContext.Consumer>
 );
 
 const RightSection = ({ title, text, textColor, data, cardType, bgColor }) => (
-    <AppContext.Consumer>
+    <MainScreenContext.Consumer>
         {({ projects }) => (
             <div className="right-section-container">
                 <List cardType={cardType} data={projects[data]} bgColor={bgColor} />
                 <HeaderAndText title={title} text={text} textColor={textColor} />
             </div>
         )}
-    </AppContext.Consumer>
+    </MainScreenContext.Consumer>
 );
 
 const Section = ({ left, ...props }) => {

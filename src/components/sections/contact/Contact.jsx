@@ -1,18 +1,30 @@
 import React from 'react';
-import AppContext from '../../app/AppContext';
+import MainScreenContext from '../../mainScreen/MainScreenContext';
 import { ContactCard } from '../../common';
 
 import './Contact.css';
 
+const text = {
+    title: {
+        en: 'Contacts',
+        pt: 'Contatos'
+    },
+    body: {
+        en: `You can find me on the internet as @juliobguedes.\
+        Feel free to reach out :)`,
+        pt: `Você pode me encontrar pela internet como @juliobguedes.
+        Sinta-se a vontade para entrar em contato :)`
+    }
+}
+
 const Contact = () => (
-    <AppContext.Consumer>
-        {({ contacts }) => (
+    <MainScreenContext.Consumer>
+        {({ contacts, lang }) => (
             <div className="contact-container">
                 <div className="contact-text-wrapper">
-                    <h1 className="white">Contacts</h1>
+                    <h1 className="white">{text.title[lang]}</h1>
                     <p className="font-style white">
-                        {`You can find me on the internet as @juliobguedes.
-                        Feel free to reach out :)`}
+                        {text.body[lang]}
                     </p>
                 </div>
                 <div className="contact-style">
@@ -20,7 +32,7 @@ const Contact = () => (
                 </div>
             </div>
         )}
-    </AppContext.Consumer>
+    </MainScreenContext.Consumer>
 );
 
 export default Contact;
