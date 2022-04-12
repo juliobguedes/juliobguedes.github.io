@@ -1,5 +1,6 @@
 // @flow
 import React from 'react';
+import { Link } from 'react-router-dom';
 import MainScreenContext from '../../mainScreen/MainScreenContext';
 import './Intro.css';
 
@@ -19,6 +20,18 @@ const textMapping = {
     s5: {
         en: 'Feel free to reach out anytime :)',
         pt: 'Sinta-se à vontade para entrar em contato :)'
+    },
+    cl1: {
+        en: 'Meu portfólio também possui uma ',
+        pt: 'My portfolio also has an ',
+    },
+    cl2: {
+        en: 'versão em Português',
+        pt: 'english version'
+    },
+    cl3: {
+        en: '/pt',
+        pt: '/'
     }
 };
 
@@ -38,6 +51,10 @@ const P2 = ({ lang }) => (
     <div className="fontSizeB">
         <p>{textMapping.s3[lang]}</p>
         <p>{textMapping.s4[lang]}<a href="./JulioGuedes_Current.pdf" target="_blank">resumé</a>.</p>
+        <p>
+            {textMapping.cl1[lang]}
+            <Link to={textMapping.cl3[lang]}>{textMapping.cl2[lang]}</Link>.
+        </p>
         <p>{textMapping.s5[lang]}</p>
     </div>
 );
