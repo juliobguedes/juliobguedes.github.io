@@ -15,6 +15,7 @@ const colors = [
     '#aaebff',
     '#a1fcdf',
     '#7fd8be',
+    "#61928A",
     '#424c55',
     '#342e37',
 ];
@@ -34,12 +35,12 @@ const MainScreen = ({ contacts, projects, sections }) => {
                     <About bgColor={colors[0]} />
                 </BigCard>
                 {sectionNames.map((name, i) => (
-                    <BigCard key={colors[i+1]} color={colors[i+1]}>
+                    <BigCard key={colors[i + 1]} color={colors[i + 1]}>
                         <Section
-                          key={colors[i+1]}
-                          left={(i+1) % 2 == 1}
-                          bgColor={colors[i+1]}
-                          {...languageSections[name]}
+                            key={colors[i + 1]}
+                            left={(i + 1) % 2 == 1}
+                            bgColor={colors[i + 1]}
+                            {...languageSections[name]}
                         />
                     </BigCard>
                 ))}
