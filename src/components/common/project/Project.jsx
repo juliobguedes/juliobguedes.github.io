@@ -23,7 +23,7 @@ const GHIcon = ({ repoUrl }: GHIconProps) => (
     </a>
 );
 
-const highlightStyle = (isHighlighted, bgColor, color) => ( isHighlighted ? {
+const highlightStyle = (isHighlighted, bgColor, color) => (isHighlighted ? {
     color: color,
     background: 'white',
     backgroundSize: '200% 100%',
@@ -47,9 +47,9 @@ const Skill = ({
     const textColor = color ? color : 'black';
     return (
         <div
-          className="container"
-          onMouseEnter={() => setHighlighted(true)}
-          onMouseLeave={() => setHighlighted(false)}
+            className="container"
+            onMouseEnter={() => setHighlighted(true)}
+            onMouseLeave={() => setHighlighted(false)}
         >
             <div className={titleClass}>
                 <p className="fontSizeB">
@@ -59,13 +59,13 @@ const Skill = ({
                         </span>
                     </a>
                 </p>
-                { repoUrl ? <GHIcon repoUrl={repoUrl} /> : null }
+                {repoUrl ? <GHIcon repoUrl={repoUrl} /> : null}
             </div>
-            <p className="fontSizeC">
+            {description ? <p className="fontSizeC">
                 <a href={principalUrl} target="_blank" rel="noopener noreferrer">
                     {description}
                 </a>
-            </p>
+            </p> : null}
         </div>
     );
 };
