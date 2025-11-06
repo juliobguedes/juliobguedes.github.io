@@ -16,32 +16,35 @@ module.exports = {
         rules: [{
             test: /\.(js|jsx)$/,
             exclude: /node_modules/,
-            loader: 'babel-loader',
+            use: {
+                loader: 'babel-loader',
+            },
         }, {
             test: /\.(less|css)$/,
-            loaders: ['style-loader', 'css-loader', 'less-loader'],
+            use: ['style-loader', 'css-loader', 'less-loader'],
         }, {
             test: /\.(png|jp(e*)g)$/,
-            loader: 'url-loader',
-            options: {
-                limit: 8000,
-                outputPath: './images/',
-                name: '[hash]-[name].[ext]',
+            type: 'asset',
+            parser: {
+                dataUrlCondition: {
+                    maxSize: 8000,
+                },
+            },
+            generator: {
+                filename: 'images/[hash]-[name][ext]',
             },
         }, {
             test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
-            use: [{
-                loader: 'file-loader',
-                options: {
-                    name: '[name].[ext]',
-                    outputPath: 'fonts/',
-                },
-            }],
+            type: 'asset/resource',
+            generator: {
+                filename: 'fonts/[name][ext]',
+            },
         }],
     },
     output: {
         path: `${parentDir}/`,
         filename: 'bundle.js',
+        clean: false,
     },
     plugins: [htmlWB],
     resolve: {

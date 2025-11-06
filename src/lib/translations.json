@@ -1,0 +1,46 @@
+{
+    "en": {
+        "intro": {
+            "s1": "Hello there!",
+            "s2": "My name is",
+            "s3": "This page is my public portfolio, and here you will discover a few things about me and about what I have been working with.",
+            "s4": "Please press CTRL+P or click on the link to open my",
+            "s5": "Feel free to reach out anytime :)",
+            "cl1": "My portfolio also has a",
+            "cl2": "Portuguese version",
+            "cl3": "/pt",
+            "resume": "resumé"
+        },
+        "about": {
+            "title": "About Me",
+            "p1": "I hold a Master's degree in Computer Science from the Federal University of Campina Grande (UFCG), where I researched Recommender Systems.",
+            "p2": "I have been working as a Software Engineer for four years, previously at Indaband and now at VTEX. My experience focuses on Web development with Golang and Node.js, but I also worked with Python, Java, and Flutter. For Data-related projects, I focus on Data Analysis and Visualization, and Machine Learning with a special interest in Natural Language Processing and Deep Learning topics."
+        },
+        "contact": {
+            "title": "Contacts",
+            "body": "You can find me on the internet as @juliobguedes. Feel free to reach out :)"
+        }
+    },
+    "pt": {
+        "intro": {
+            "s1": "E aí!",
+            "s2": "Me chamo",
+            "s3": "Esta página é meu portfólio público, e aqui você pode descobrir algumas coisas sobre mim e com o que tenho trabalhado.",
+            "s4": "Aperte CTRL+P ou clique no link para abrir meu",
+            "s5": "Sinta-se à vontade para entrar em contato :)",
+            "cl1": "Meu portfólio também possui uma",
+            "cl2": "versão em Inglês",
+            "cl3": "/",
+            "resume": "resumé"
+        },
+        "about": {
+            "title": "Sobre mim",
+            "p1": "Possuo mestrado em Ciência da Computação pela Universidade Federal de Campina Grande (UFCG), onde pesquisei sobre Sistemas de Recomendação.",
+            "p2": "Trabalho como Engenheiro de Software há quatro anos, anteriormente na Indaband e agora na VTEX. Minha experiência foca em desenvolvimento Web com Golang e Node.js, mas também trabalhei com Python, Java e Flutter. Para projetos relacionados a Dados, meu foco é em Análise e Visualização de Dados, e Aprendizagem de Máquina, possuindo um interesse especial em Processamento de Linguagem Natural e Deep Learning."
+        },
+        "contact": {
+            "title": "Contatos",
+            "body": "Você pode me encontrar pela internet como @juliobguedes. Sinta-se a vontade para entrar em contato :)"
+        }
+    }
+}

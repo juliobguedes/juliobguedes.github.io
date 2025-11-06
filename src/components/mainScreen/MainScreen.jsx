@@ -27,27 +27,35 @@ const MainScreen = ({ contacts, projects, sections }) => {
     const sectionNames = Object.keys(languageSections);
     return (
         <MainScreenContext.Provider value={{ contacts, projects: projects[lang], lang }}>
-            <div className='clean'>
-                <BigCard>
-                    <Intro />
-                </BigCard>
-                <BigCard key={colors[0]} color={colors[0]}>
-                    <About bgColor={colors[0]} />
-                </BigCard>
-                {sectionNames.map((name, i) => (
-                    <BigCard key={colors[i + 1]} color={colors[i + 1]}>
-                        <Section
-                            key={colors[i + 1]}
-                            left={(i + 1) % 2 == 1}
-                            bgColor={colors[i + 1]}
-                            {...languageSections[name]}
-                        />
+            <main className='clean' role="main">
+                <section aria-label="Introduction">
+                    <BigCard>
+                        <Intro />
                     </BigCard>
+                </section>
+                <section aria-label="About Me">
+                    <BigCard key={colors[0]} color={colors[0]}>
+                        <About bgColor={colors[0]} />
+                    </BigCard>
+                </section>
+                {sectionNames.map((name, i) => (
+                    <section key={name} aria-label={languageSections[name].title}>
+                        <BigCard key={colors[i + 1]} color={colors[i + 1]}>
+                            <Section
+                                key={colors[i + 1]}
+                                left={(i + 1) % 2 == 1}
+                                bgColor={colors[i + 1]}
+                                {...languageSections[name]}
+                            />
+                        </BigCard>
+                    </section>
                 ))}
-                <BigCard key={colors[lastIndex]} color={colors[lastIndex]}>
-                    <Contact bgColor={colors[lastIndex]} />
-                </BigCard>
-            </div>
+                <section aria-label="Contact Information">
+                    <BigCard key={colors[lastIndex]} color={colors[lastIndex]}>
+                        <Contact bgColor={colors[lastIndex]} />
+                    </BigCard>
+                </section>
+            </main>
         </MainScreenContext.Provider>
     );
 };

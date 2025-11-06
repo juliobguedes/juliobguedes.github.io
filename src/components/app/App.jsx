@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom';
 
 import MainScreen from '../mainScreen/MainScreen'
+import StructuredData from '../common/StructuredData';
 import { contacts, projects, sections } from '../../lib';
 
 window.addEventListener('keydown', function (e) {
@@ -28,6 +29,7 @@ const MP = () => (
 
 const App = () => (
     <Router>
+        <StructuredData />
         <Routes>
             <Route path="/pt" element={
                 <MP />

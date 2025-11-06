@@ -17,14 +17,39 @@ const SubHeader = ({ position, location, timePeriod }) => {
     return <SH />;
 };
 
+const renderTitleWithLink = (title, lab) => {
+    const companyLinks = {
+        'Inda.band': 'https://www.linkedin.com/company/indaband',
+        'VTEX': 'https://www.linkedin.com/company/vtex/',
+    };
+    
+    const link = companyLinks[title];
+    const displayTitle = lab ? `${title} @ ${lab}` : title;
+    
+    if (link) {
+        return (
+            <a 
+                href={link} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="experience-title-link"
+            >
+                {displayTitle}
+            </a>
+        );
+    }
+    
+    return <span>{displayTitle}</span>;
+};
+
 const Experience = ({
     title, lab, position, description, timePeriod, location,
 }) => (
-    <div className="experience-container">
-        <p className="experience-title">{lab ? `${title} @ ${lab}` : `${title}`}</p>
+    <article className="experience-container">
+        <h2 className="experience-title">{renderTitleWithLink(title, lab)}</h2>
         <SubHeader position={position} location={location} timePeriod={timePeriod} />
         <p className="experience-text-justify">{description}</p>
-    </div>
+    </article>
 );
 
 export default Experience;

@@ -2,38 +2,28 @@
     "en": {
         "experience": [
             {
+                "id": 7,
+                "title": "VTEX",
+                "position": "Software Engineer II",
+                "description": "As a Software Engineer on the IO Apps team, I developed and maintained critical infrastructure applications to ensure platform resilience and optimize operational efficiency, especially during high-traffic events such as Black Friday. Drove infrastructure modernization and cost optimization by leading a zero-downtime migration of Redis clusters, resulting in $71,000 in estimated annual savings and enhanced reliability through IaC (Infrastructure as Code) adoption. Led critical Black Friday readiness initiatives, leveraging data analysis to forecast traffic and scale applications, which contributed to a 100% SLA and a $70,000 reduction in operational costs compared to the previous year.",
+                "timePeriod": "August/2024 - Present",
+                "location": "Remote, Brazil"
+            },
+            {
                 "id": 6,
                 "title": "Inda.band",
                 "position": "Software Engineer",
-                "description": "Joined as a part-time Data Scientist and transitioned to full-time Software Engineer. Member of the team for creation and implementation of solutions for feed recommendation and item discovery in the context of music.",
-                "timePeriod": "May/2022 - Present",
+                "description": "I joined the team as a part-time Data Scientist and transitioned to a full-time, full-stack Software Engineer position. On the Feeds and Watcher teams, I was responsible for the end-to-end development of custom and personalized user feeds, building a low-latency and highly reliable platform to ensure a seamless user experience. Enhanced system observability for developers and stakeholders, enabling them to analyze feature usage by implementing and integrating in-app metrics with contextual dashboards. Researched and implemented solutions for content personalization, from information retrieval to machine learning models, also enhancing data processing pipelines to reduce over 70% of the execution time.",
+                "timePeriod": "May/2022 - July/2024",
                 "location": "Remote, Brazil"
             },
             {
                 "id": 5,
-                "title": "Dell Advanced Intelligent Channels",
+                "title": "Dell EMC",
                 "lab": "Data Mining Laboratory",
                 "position": "Research Team Leader",
-                "description": "Team leader in R&D project in partnership with Dell EMC. Responsible for planning and executing tasks seeking enhancements to customer service and client support through Natural Language Processing and Machine Learning",
-                "timePeriod": "March/2021 - February/2022",
-                "location": "Campina Grande, Brazil"
-            },
-            {
-                "id": 4,
-                "title": "Dell Email Automation",
-                "lab": "Data Mining Laboratory",
-                "position": "Data Science Intern",
-                "description": "R&D project in partnership with Dell EMC. Responsible for executing tasks using Natural Language Processing and Machine Learning for Smart Replies and Email Automation.",
-                "timePeriod": "October/2019 - September/2020",
-                "location": "Campina Grande, Brazil"
-            },
-            {
-                "id": 3,
-                "title": "Fretei",
-                "lab": "Computational Perception Laboratory",
-                "position": "Mobile Developer Intern",
-                "description": "R&D project focused on building Web and Mobile platforms in the context of transport and traffic. Responsible for the development of the mobile application prototype using React Native.",
-                "timePeriod": "June/2019 - September/2019",
+                "description": "After a successful Data Science internship, I was promoted to Team Leader and led the effort to research and develop solutions to improve customer service efficiency and outcomes. Managed and mentored a team of three students in the development of data-driven solutions, leading the research and implementation from conception to delivery. Engineered and deployed real-time Machine Learning models within a microservice-based environment to provide immediate, actionable insights for customer service.",
+                "timePeriod": "October/2019 - February/2022",
                 "location": "Campina Grande, Brazil"
             },
             {
@@ -41,7 +31,7 @@
                 "title": "ePol",
                 "lab": "Software Practices Laboratory",
                 "position": "Software Engineer Intern",
-                "description": "RD&I project in cooperation with Brazilian Federal Police, aiming to build a Web System to assist law enforcement activities and research about software architecture, evolution, and distributed development. My main contribution was the addition of static analysis and new testing frameworks, increasing the safety of our code and improving the code review process.",
+                "description": "Implemented new features in a large-scale web system for law enforcement activities. Improved developers' experience and Software Engineering settings by refactoring the entire code base to follow a consistent style, facilitating code reviews and feature integration.",
                 "timePeriod": "June/2018 - May/2019",
                 "location": "Campina Grande, Brazil"
             }
@@ -224,30 +214,28 @@
     "pt": {
         "experience": [
             {
+                "id": 7,
+                "title": "VTEX",
+                "position": "Engenheiro de Software II",
+                "description": "Como Engenheiro de Software na equipe IO Apps, desenvolvi e mantive aplicações críticas de infraestrutura para garantir a resiliência da plataforma e otimizar a eficiência operacional, especialmente durante eventos de alto tráfego como a Black Friday. Impulsionou a modernização de infraestrutura e otimização de custos liderando uma migração sem tempo de inatividade de clusters Redis, resultando em $71.000 em economias anuais estimadas e maior confiabilidade através da adoção de IaC (Infrastructure as Code). Liderou iniciativas críticas de preparação para Black Friday, aproveitando análise de dados para prever tráfego e dimensionar aplicações, o que contribuiu para um SLA de 100% e uma redução de $70.000 nos custos operacionais em comparação com o ano anterior.",
+                "timePeriod": "Agosto/2024 - Presente",
+                "location": "Remoto, Brasil"
+            },
+            {
+                "id": 6,
+                "title": "Inda.band",
+                "position": "Engenheiro de Software",
+                "description": "Ingressei na equipe como Cientista de Dados em meio período e transicionei para uma posição de Engenheiro de Software em tempo integral. Nas equipes Feeds e Watcher, fui responsável pelo desenvolvimento end-to-end de feeds personalizados e customizados para usuários, construindo uma plataforma de baixa latência e alta confiabilidade para garantir uma experiência de usuário perfeita. Aprimorei a observabilidade do sistema para desenvolvedores e stakeholders, permitindo que analisem o uso de funcionalidades através da implementação e integração de métricas in-app com dashboards contextuais. Pesquisei e implementei soluções para personalização de conteúdo, desde recuperação de informação até modelos de aprendizado de máquina, também aprimorando pipelines de processamento de dados para reduzir mais de 70% do tempo de execução.",
+                "timePeriod": "Maio/2022 - Julho/2024",
+                "location": "Remoto, Brasil"
+            },
+            {
                 "id": 5,
-                "title": "Dell Advanced Intelligent Channels",
+                "title": "Dell EMC",
                 "lab": "Laboratório de Mineração de Dados",
                 "position": "Líder de Equipe de Pesquisa",
-                "description": "Líder de Equipe em projeto P&D em parceria com a Dell EMC. Responsável pelo planejamento e execução de atividades gerando melhorias no serviço de atendimento ao consumidor pelo uso de técnicas de Processamento de Linguagem Natural e Aprendizagem de Máquina.",
-                "timePeriod": "Março/2021 - Fevereiro/2022",
-                "location": "Campina Grande, Brasil"
-            },
-            {
-                "id": 4,
-                "title": "Dell Email Automation",
-                "lab": "Laboratório de Mineração de Dados",
-                "position": "Estágio em Ciência de Dados",
-                "description": "Projeto P&D em parceria com a Dell EMC. Responsável pela execução de atividades usando Processamento de Linguagem Natural e Aprendizagem de Máquina no contexto de resposta automática de Emails.",
-                "timePeriod": "Outubro/2019 - Setembro/2020",
-                "location": "Campina Grande, Brasil"
-            },
-            {
-                "id": 3,
-                "title": "Fretei",
-                "lab": "Laboratório de Percepção Computacional",
-                "position": "Estágio em Desenvolvimento Mobile",
-                "description": "Projeto P&D com foco na construção de plataformas Web e Mobile no contexto de transporte e tráfego. Responsável pelo desenvolvimento do protótipo da aplicação mobile, usando React Native.",
-                "timePeriod": "Junho/2019 - Setembro/2019",
+                "description": "Após um estágio bem-sucedido em Ciência de Dados, fui promovido a Líder de Equipe e liderei o esforço para pesquisar e desenvolver soluções para melhorar a eficiência e os resultados do atendimento ao cliente. Gerenciei e mentorei uma equipe de três estudantes no desenvolvimento de soluções baseadas em dados, liderando a pesquisa e implementação desde a concepção até a entrega. Projetei e implantei modelos de Aprendizado de Máquina em tempo real em um ambiente baseado em microsserviços para fornecer insights imediatos e acionáveis para o atendimento ao cliente.",
+                "timePeriod": "Outubro/2019 - Fevereiro/2022",
                 "location": "Campina Grande, Brasil"
             },
             {
@@ -255,7 +243,7 @@
                 "title": "ePol",
                 "lab": "Laboratório de Práticas de Software",
                 "position": "Estágio em Engenharia de Software",
-                "description": "Projeto P&DI em cooperação com a Polícia Federal, com objetivo de criação de um sistema Web para auxílio da atividade legal, além de possibilitar a pesquisa sobre arquitetura e evolução de software, além de desenvolvimento distribuído. Minha principal contribuição se deu pela adição de análise estática e frameworks de teste, aumentando a segurança do código e aprimorando o processo de revisão de código.",
+                "description": "Implementei novas funcionalidades em um sistema web de grande escala para atividades de aplicação da lei. Melhorei a experiência dos desenvolvedores e as configurações de Engenharia de Software refatorando toda a base de código para seguir um estilo consistente, facilitando revisões de código e integração de funcionalidades.",
                 "timePeriod": "Junho/2018 - Maio/2019",
                 "location": "Campina Grande, Brasil"
             }
