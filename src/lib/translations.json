@@ -13,8 +13,8 @@
         },
         "about": {
             "title": "About Me",
-            "p1": "I hold a Master's degree in Computer Science from the Federal University of Campina Grande (UFCG), where I researched Recommender Systems.",
-            "p2": "I have been working as a Software Engineer for four years, previously at Indaband and now at VTEX. My experience focuses on Web development with Golang and Node.js, but I also worked with Python, Java, and Flutter. For Data-related projects, I focus on Data Analysis and Visualization, and Machine Learning with a special interest in Natural Language Processing and Deep Learning topics."
+            "p1": "",
+            "p2": ""
         },
         "contact": {
             "title": "Contacts",
@@ -35,8 +35,8 @@
         },
         "about": {
             "title": "Sobre mim",
-            "p1": "Possuo mestrado em Ciência da Computação pela Universidade Federal de Campina Grande (UFCG), onde pesquisei sobre Sistemas de Recomendação.",
-            "p2": "Trabalho como Engenheiro de Software há quatro anos, anteriormente na Indaband e agora na VTEX. Minha experiência foca em desenvolvimento Web com Golang e Node.js, mas também trabalhei com Python, Java e Flutter. Para projetos relacionados a Dados, meu foco é em Análise e Visualização de Dados, e Aprendizagem de Máquina, possuindo um interesse especial em Processamento de Linguagem Natural e Deep Learning."
+            "p1": "",
+            "p2": ""
         },
         "contact": {
             "title": "Contatos",

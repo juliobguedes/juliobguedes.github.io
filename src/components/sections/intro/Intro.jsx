@@ -5,7 +5,7 @@ import MainScreenContext from '../../mainScreen/MainScreenContext';
 import { translations } from '../../../lib';
 import './Intro.css';
 
-const BoldName = () => <b> Júlio Guedes</b>;
+const BoldName = () => <span> Júlio Guedes</span>;
 
 const P1 = ({ lang }) => {
     const t = translations[lang].intro;

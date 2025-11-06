@@ -1,7 +1,6 @@
 import React from 'react';
 import MainScreenContext from '../../mainScreen/MainScreenContext';
 import { translations } from '../../../lib';
-import profileImage from '../../../../assets/img/profile.jpg';
 
 import './About.css';
 
@@ -43,7 +42,7 @@ const AboutText = ({ lang }) => {
     return (
         <div className="font-size-c">
             <p>{t.p1}</p>
-            <p>{renderWithLinks(t.p2)}</p>
+            {t.p2 && <p>{renderWithLinks(t.p2)}</p>}
         </div>
     );
 };
@@ -54,9 +53,6 @@ const About = () => (
             const t = translations[lang].about;
             return (
                 <article className="about-container">
-                    <div className="image-container">
-                        <img className="image-wrapper" alt="Júlio Barreto Guedes - Software Engineer II at VTEX" src={profileImage} />
-                    </div>
                     <div className="text-container">
                         <h1 className="about-title">{t.title}</h1>
                         <AboutText lang={lang} />

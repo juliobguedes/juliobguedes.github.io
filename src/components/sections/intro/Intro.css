@@ -15,10 +15,10 @@
     grid-row-start: 2;
     align-items: center;
     justify-content: center;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .amatic {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
 }

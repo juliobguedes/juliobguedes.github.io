@@ -33,14 +33,14 @@ const MainScreen = ({ contacts, projects, sections }) => {
                         <Intro />
                     </BigCard>
                 </section>
-                <section aria-label="About Me">
+                {/* <section aria-label="About Me">
                     <BigCard key={colors[0]} color={colors[0]}>
                         <About bgColor={colors[0]} />
                     </BigCard>
-                </section>
+                </section> */}
                 {sectionNames.map((name, i) => (
                     <section key={name} aria-label={languageSections[name].title}>
-                        <BigCard key={colors[i + 1]} color={colors[i + 1]}>
+                        <BigCard key={colors[i]} color={colors[i + 1]}>
                             <Section
                                 key={colors[i + 1]}
                                 left={(i + 1) % 2 == 1}
