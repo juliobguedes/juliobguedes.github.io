@@ -1,30 +1,62 @@
 import React from 'react';
 import './Experience.css';
 
-const SubHeader = ({ position, location, timePeriod }) => {
-    const SH = position ? () => (
-        <ul className="experience-subheader">
-            <li className="experience-position">{position}</li>
-            <li className="experience-location">{timePeriod}</li>
-            <li className="experience-time">{location}</li>
-        </ul>
-    ) : () => (
-        <ul className="experience-subheader">
-            <li className="experience-location">{timePeriod}</li>
-            <li className="experience-time">{location}</li>
-        </ul>
-    );
-    return <SH />;
-};
-
 const Experience = ({
-    title, lab, position, description, timePeriod, location,
-}) => (
-    <div className="experience-container">
-        <p className="experience-title">{lab ? `${title} @ ${lab}` : `${title}`}</p>
-        <SubHeader position={position} location={location} timePeriod={timePeriod} />
-        <p className="experience-text-justify">{description}</p>
-    </div>
-);
+    title, lab, position, description, timePeriod, location, link,
+}) => {
+    const displayTitle = lab ? `${title} @ ${lab}` : title;
+    const titleWithPosition = position ? `${position} · ${displayTitle}` : displayTitle;
+
+    const parseDates = (timePeriod) => {
+        if (!timePeriod) return { start: '', end: '' };
+        const parts = timePeriod.split(' - ');
+        if (parts.length === 2) {
+            return { start: parts[0].trim(), end: parts[1].trim() };
+        }
+        return { start: timePeriod, end: '' };
+    };
+
+    const { start, end } = parseDates(timePeriod);
+
+    const content = (
+        <div className="experience-content">
+            <div className="experience-date">
+                {end && <div className="experience-date-end">{end}</div>}
+                {start && <div className="experience-date-start">{start}</div>}
+            </div>
+            <div className="experience-details">
+                <h2 className="experience-title">
+                    <span className="experience-title-text">{titleWithPosition}</span>
+                </h2>
+                <div className="experience-meta">
+                    {location && <span className="experience-location">{location}</span>}
+                </div>
+                <p className="experience-description">{description}</p>
+            </div>
+        </div>
+    );
+
+    if (link) {
+        return (
+            <article className="experience-container experience-hoverable">
+                <a
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="experience-link-wrapper"
+                    aria-label={`${displayTitle} - External link`}
+                >
+                    {content}
+                </a>
+            </article>
+        );
+    }
+
+    return (
+        <article className="experience-container">
+            {content}
+        </article>
+    );
+};
 
 export default Experience;

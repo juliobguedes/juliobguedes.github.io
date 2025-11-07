@@ -1,57 +1,233 @@
 .experience-container {
-    background-color: white;
-    box-shadow: 5px 5px 5px #555;
-    border-radius: 2px;
-    margin-bottom: 3%;
-    padding: 0% 10%;
-    transition: 0.3s ease-in-out;
+    position: relative;
+    padding: 0;
+    margin-bottom: 2.5rem;
     cursor: default;
 }
 
-@media screen and (max-width: 425px) {
-    .experience-container:nth-child(1n) {
-        grid-column: 2;
-    }
+.experience-hoverable {
+    cursor: pointer;
 }
 
-@media screen and (min-width: 426px) and (max-width: 1440px) {
-    .experience-container:nth-child(odd) {
-        grid-column: 1;
-    }
-    
-    .experience-container:nth-child(even) {
-        grid-column: 3;
-    }
+.experience-link-wrapper {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    margin: -1rem -1.5rem;
+    transition: all 0.3s ease;
 }
 
-@media screen and (min-width: 1441px) {
-    .experience-container:nth-child(3n+1) {
-        grid-column: 1;
-    }
-        
-    .experience-container:nth-child(3n+2) {
-        grid-column: 3;
-    }
-
-    .experience-container:nth-child(3n) {
-        grid-column: 5;
-    }
+.experience-link-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(25px) saturate(180%);
+    -webkit-backdrop-filter: blur(25px) saturate(180%);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.08),
+        0 0 0 1px rgba(0, 0, 0, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.03);
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease, backdrop-filter 0.3s ease;
+    transform: scale(1);
+    z-index: 0;
+    pointer-events: none;
 }
 
-.experience-subheader {
+.experience-hoverable:hover .experience-link-wrapper::before {
+    opacity: 1;
+    transform: scale(1.01);
+    backdrop-filter: blur(35px) saturate(125%);
+    -webkit-backdrop-filter: blur(35px) saturate(125%);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.12),
+        0 0 0 1px rgba(0, 0, 0, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 0.25),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+}
+
+.experience-link-wrapper>* {
+    position: relative;
+    z-index: 1;
+}
+
+.experience-content {
     display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    gap: 2.5rem;
+    position: relative;
+    align-items: center;
+}
+
+.experience-date {
+    font-size: 0.95rem;
+    color: inherit;
+    opacity: 0.8;
+    text-align: right;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experience-date-end {
+    margin-bottom: 0.25rem;
+}
+
+.experience-details {
+    flex: 1;
 }
 
 .experience-title {
     font-size: 1.5rem;
-    margin-bottom: 0;
-}
-
-.experience-container:hover {
-    box-shadow: 7px 7px 7px #555;
-}
-
-.experience-text-justify {
-    /* text-align: justify; */
+    margin-bottom: 0.5rem;
     margin-top: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    line-height: 1.3;
+}
+
+.experience-title-text {
+    position: relative;
+    display: inline-block;
+}
+
+.experience-hoverable:hover .experience-title-text::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: currentColor;
+    animation: underline-animation 0.4s ease forwards;
+}
+
+@keyframes underline-animation {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.experience-meta {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    opacity: 0.75;
+    line-height: 1.5;
+}
+
+.experience-location {
+    display: inline-block;
+}
+
+.experience-description {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.7;
+    opacity: 0.85;
+    font-size: 1rem;
+}
+
+/* Tablet adjustments */
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+    .experience-content {
+        grid-template-columns: 12rem 1fr;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .experience-date {
+        font-size: 0.9rem;
+    }
+
+    .experience-title {
+        font-size: 1.35rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .experience-meta {
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .experience-description {
+        font-size: 0.95rem;
+    }
+}
+
+/* Mobile adjustments */
+@media screen and (max-width: 768px) {
+    .experience-content {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+        align-items: start;
+    }
+
+    .experience-date {
+        text-align: left;
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .experience-title {
+        font-size: 1.25rem;
+        margin-bottom: 0.375rem;
+    }
+
+    .experience-meta {
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .experience-description {
+        font-size: 0.95rem;
+        line-height: 1.65;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .experience-container {
+        margin-bottom: 3.5rem;
+    }
+
+    .experience-content {
+        gap: 0.5rem;
+    }
+
+    .experience-date {
+        font-size: 0.85rem;
+        margin-bottom: 0.375rem;
+    }
+
+    .experience-title {
+        font-size: 1.15rem;
+        margin-bottom: 0.375rem;
+    }
+
+    .experience-meta {
+        font-size: 0.85rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .experience-description {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
 }

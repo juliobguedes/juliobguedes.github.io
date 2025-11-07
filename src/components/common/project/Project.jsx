@@ -46,19 +46,19 @@ const Skill = ({
     const principalUrl = liveUrl != null ? liveUrl : repoUrl;
     const textColor = color ? color : 'black';
     return (
-        <div
+        <article
             className="container"
             onMouseEnter={() => setHighlighted(true)}
             onMouseLeave={() => setHighlighted(false)}
         >
             <div className={titleClass}>
-                <p className="fontSizeB">
-                    <a href={principalUrl} target="_blank" rel="noopener noreferrer">
+                <h3 className="fontSizeB">
+                    <a href={principalUrl} target="_blank" rel="noopener noreferrer" aria-label={`${title} project`}>
                         <span style={highlightStyle(isHighlighted, backgroundColor, textColor)}>
                             {title}
                         </span>
                     </a>
-                </p>
+                </h3>
                 {repoUrl ? <GHIcon repoUrl={repoUrl} /> : null}
             </div>
             {description ? <p className="fontSizeC">
@@ -66,7 +66,7 @@ const Skill = ({
                     {description}
                 </a>
             </p> : null}
-        </div>
+        </article>
     );
 };
 

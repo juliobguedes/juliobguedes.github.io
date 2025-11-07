@@ -2,23 +2,17 @@
     "en": {
         "experience": {
             "title": "Experience",
-            "text": "This section lists my work experience, also present in my resumé. However, since the projects are owned by different clients I cannot provide links to the code.",
+            "text": "A results-driven Software Engineer specializing in reliability and distributed systems. My experience is centered on the construction, maintenance, and optimization of critical infrastructure to ensure high performance and reliability on a scale. I have led a number of key initiatives, including improving platform observability, modernizing core infrastructure, and driving significant cost reductions. As an experienced Incident Lead, I am adept at diagnosing and resolving complex issues under pressure, while also proactively identifying and mitigating future risks. This section lists my work experience, also present in my resumé. However, since the projects are owned by different clients I cannot provide links to the code.",
             "textColor": "black",
             "data": "experience",
             "cardType": "Experience"
         },
         "education": {
-            "title": "Education",
-            "text": "During my undergraduate course in Computer Science, I had the opportunity to participate in internships and with Web and Mobile development, learning and practicing software engineering skills. Later in the undergraduate course, I changed my focus to data-related projects, closer to research, which led me to a Master's degree in Computer Science, focusing on the subjects of Recommender Systems and Natural Language Processing.",
+            "title": "Education & Research",
+            "text": "During my undergraduate course in Computer Science, I had the opportunity to participate in internships and with Web and Mobile development, learning and practicing software engineering skills. Later in the undergraduate course, I changed my focus to data-related projects, closer to research, which led me to a Master's degree in Computer Science, focusing on the subjects of Recommender Systems and Natural Language Processing. This section includes my academic background as well as my research contributions, including publications presented at international conferences.",
             "textColor": "black",
             "data": "education",
             "cardType": "Experience"
-        },
-        "research": {
-            "title": "Research",
-            "text": "During my undergraduate course in Computer Science, I had the opportunity to participate in internships and with Web and Mobile development, learning and practicing software engineering skills. Later in the undergraduate course, I changed my focus to data-related projects, closer to research, which led me to a Master's degree in Computer Science, focusing on the subjects of Recommender Systems and Natural Language Processing.",
-            "textColor": "black",
-            "data": "research"
         },
         "dataScience": {
             "title": "Data-Related Projects",
@@ -48,14 +42,14 @@
     "pt": {
         "experience": {
             "title": "Experiência",
-            "text": "Esta seção lista minha experiência de trabalho, como consta no meu resumé. Entretanto, como os projetos são propriedade dos diversos clientes, não é possível adicionar links para o código.",
+            "text": "Engenheiro de Software orientado a resultados, especializado em confiabilidade e sistemas distribuídos. Minha experiência está centrada na construção, manutenção e otimização de infraestrutura crítica para garantir alto desempenho e confiabilidade em escala. Lidei várias iniciativas importantes, incluindo melhorias na observabilidade da plataforma, modernização da infraestrutura principal e reduções significativas de custos. Como Líder de Incidentes experiente, sou hábil em diagnosticar e resolver problemas complexos sob pressão, além de identificar e mitigar proativamente riscos futuros. Esta seção lista minha experiência de trabalho, como consta no meu resumé. Entretanto, como os projetos são propriedade dos diversos clientes, não é possível adicionar links para o código.",
             "textColor": "black",
             "data": "experience",
             "cardType": "Experience"
         },
         "education": {
-            "title": "Educação",
-            "text": "Durante minha graduação em Ciência da Computação, tive a oportunidade de participar em estágios de desenvolvimento Web e Mobile, aprendendo e praticando técnicas de Engenharia de Software. Mais ao fim da graduação, mudei meu foco para projetos relacionados à dados, mais próximos de pesquisa, que me levaram a um mestrado com foco em Sistemas de Recomendação e Processamento de Linguagem Natural.",
+            "title": "Educação & Pesquisa",
+            "text": "Durante minha graduação em Ciência da Computação, tive a oportunidade de participar em estágios de desenvolvimento Web e Mobile, aprendendo e praticando técnicas de Engenharia de Software. Mais ao fim da graduação, mudei meu foco para projetos relacionados à dados, mais próximos de pesquisa, que me levaram a um mestrado com foco em Sistemas de Recomendação e Processamento de Linguagem Natural. Esta seção inclui minha formação acadêmica, bem como minhas contribuições de pesquisa, incluindo publicações apresentadas em conferências internacionais.",
             "textColor": "black",
             "data": "education",
             "cardType": "Experience"

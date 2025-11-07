@@ -1,0 +1,36 @@
+{
+    "en": {
+        "intro": {
+            "s1": "Hello there!",
+            "s2": "My name is",
+            "s3": "This page is my public portfolio, and here you will discover a few things about me and about what I have been working with.",
+            "s4": "Please press CTRL+P or click on the link to open my",
+            "s5": "Feel free to reach out anytime :)",
+            "cl1": "My portfolio also has a",
+            "cl2": "Portuguese version",
+            "cl3": "/pt",
+            "resume": "resumé"
+        },
+        "contact": {
+            "title": "Contacts",
+            "body": "You can find me on the internet as @juliobguedes. Feel free to reach out :)"
+        }
+    },
+    "pt": {
+        "intro": {
+            "s1": "E aí!",
+            "s2": "Me chamo",
+            "s3": "Esta página é meu portfólio público, e aqui você pode descobrir algumas coisas sobre mim e com o que tenho trabalhado.",
+            "s4": "Aperte CTRL+P ou clique no link para abrir meu",
+            "s5": "Sinta-se à vontade para entrar em contato :)",
+            "cl1": "Meu portfólio também possui uma",
+            "cl2": "versão em Inglês",
+            "cl3": "/",
+            "resume": "resumé"
+        },
+        "contact": {
+            "title": "Contatos",
+            "body": "Você pode me encontrar pela internet como @juliobguedes. Sinta-se a vontade para entrar em contato :)"
+        }
+    }
+}

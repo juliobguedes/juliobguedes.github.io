@@ -22,7 +22,7 @@ const CardSequence = ({ data, bgColor, textColor }) => (
 );
 
 const ExperienceSequence = ({ data, bgColor, textColor }) => (
-    <div className="section-card-sequence">
+    <div className="section-experience-sequence">
         {data.map(ds => <Experience key={ds.id} {...ds} backgroundColor={bgColor} />)}
     </div>
 );
