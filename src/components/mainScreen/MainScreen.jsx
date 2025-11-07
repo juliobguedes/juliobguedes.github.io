@@ -2,8 +2,8 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 
 import MainScreenContext from './MainScreenContext';
-import { BigCard } from '../common';
-import { Intro, Contact } from '../sections';
+import { BigCard, Footer } from '../common';
+import { Intro } from '../sections';
 import Section from '../sections/Section';
 
 import './MainScreen.css';
@@ -21,7 +21,6 @@ const colors = [
 ];
 
 const MainScreen = ({ contacts, projects, sections }) => {
-    const lastIndex = colors.length - 1;
     const lang = useLocation().pathname === '/' ? 'en' : 'pt';
     const languageSections = sections[lang];
     const sectionNames = Object.keys(languageSections);
@@ -45,12 +44,8 @@ const MainScreen = ({ contacts, projects, sections }) => {
                         </BigCard>
                     </section>
                 ))}
-                <section aria-label="Contact Information">
-                    <BigCard key={colors[lastIndex]} color={colors[lastIndex]}>
-                        <Contact bgColor={colors[lastIndex]} />
-                    </BigCard>
-                </section>
             </main>
+            <Footer />
         </MainScreenContext.Provider>
     );
 };

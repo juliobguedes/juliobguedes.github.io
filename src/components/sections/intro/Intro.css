@@ -22,3 +22,31 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
 }
+
+.intro-contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.intro-contact-icons .contact-card-container {
+    background-color: transparent;
+    color: #4b5563;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    transition: color 0.3s ease;
+}
+
+.intro-contact-icons .contact-card-container:hover {
+    background-color: transparent;
+    color: #000000;
+    transform: scale(1.1);
+}
+
+.intro-contact-icons .contact-card-container .icon {
+    width: 24px !important;
+    height: 24px !important;
+}

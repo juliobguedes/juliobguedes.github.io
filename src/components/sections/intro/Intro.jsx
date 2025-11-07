@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import MainScreenContext from '../../mainScreen/MainScreenContext';
+import { ContactCard } from '../../common';
 import { translations } from '../../../lib';
 import './Intro.css';
 
@@ -34,12 +35,23 @@ const P2 = ({ lang }) => {
     );
 };
 
+const ContactIcons = () => (
+    <MainScreenContext.Consumer>
+        {({ contacts }) => (
+            <div className="intro-contact-icons">
+                {contacts.map(c => <ContactCard key={c.social} contact={c} />)}
+            </div>
+        )}
+    </MainScreenContext.Consumer>
+);
+
 const Intro = () => (
     <MainScreenContext.Consumer>
         {({ lang }) => (
             <header className="text-center proper-center">
                 <P1 lang={lang} />
                 <P2 lang={lang} />
+                <ContactIcons />
             </header>
         )}
     </MainScreenContext.Consumer>
