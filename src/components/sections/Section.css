@@ -4,7 +4,7 @@
     }
 
     .right-section-container {
-        grid-template-columns: 2fr 0.1fr 1fr;
+        grid-template-columns: 1.8fr 0.1fr 1.2fr;
     }
 
     .section-card-sequence {

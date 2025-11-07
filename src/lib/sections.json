@@ -8,17 +8,11 @@
             "cardType": "Experience"
         },
         "education": {
-            "title": "Education",
-            "text": "During my undergraduate course in Computer Science, I had the opportunity to participate in internships and with Web and Mobile development, learning and practicing software engineering skills. Later in the undergraduate course, I changed my focus to data-related projects, closer to research, which led me to a Master's degree in Computer Science, focusing on the subjects of Recommender Systems and Natural Language Processing.",
+            "title": "Education & Research",
+            "text": "During my undergraduate course in Computer Science, I had the opportunity to participate in internships and with Web and Mobile development, learning and practicing software engineering skills. Later in the undergraduate course, I changed my focus to data-related projects, closer to research, which led me to a Master's degree in Computer Science, focusing on the subjects of Recommender Systems and Natural Language Processing. This section includes my academic background as well as my research contributions, including publications presented at international conferences.",
             "textColor": "black",
             "data": "education",
             "cardType": "Experience"
-        },
-        "research": {
-            "title": "Research",
-            "text": "During my undergraduate course in Computer Science, I had the opportunity to participate in internships and with Web and Mobile development, learning and practicing software engineering skills. Later in the undergraduate course, I changed my focus to data-related projects, closer to research, which led me to a Master's degree in Computer Science, focusing on the subjects of Recommender Systems and Natural Language Processing.",
-            "textColor": "black",
-            "data": "research"
         },
         "dataScience": {
             "title": "Data-Related Projects",
@@ -54,8 +48,8 @@
             "cardType": "Experience"
         },
         "education": {
-            "title": "Educação",
-            "text": "Durante minha graduação em Ciência da Computação, tive a oportunidade de participar em estágios de desenvolvimento Web e Mobile, aprendendo e praticando técnicas de Engenharia de Software. Mais ao fim da graduação, mudei meu foco para projetos relacionados à dados, mais próximos de pesquisa, que me levaram a um mestrado com foco em Sistemas de Recomendação e Processamento de Linguagem Natural.",
+            "title": "Educação & Pesquisa",
+            "text": "Durante minha graduação em Ciência da Computação, tive a oportunidade de participar em estágios de desenvolvimento Web e Mobile, aprendendo e praticando técnicas de Engenharia de Software. Mais ao fim da graduação, mudei meu foco para projetos relacionados à dados, mais próximos de pesquisa, que me levaram a um mestrado com foco em Sistemas de Recomendação e Processamento de Linguagem Natural. Esta seção inclui minha formação acadêmica, bem como minhas contribuições de pesquisa, incluindo publicações apresentadas em conferências internacionais.",
             "textColor": "black",
             "data": "education",
             "cardType": "Experience"

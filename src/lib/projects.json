@@ -38,34 +38,34 @@
         ],
         "education": [
             {
-                "id": 2,
+                "id": 4,
                 "title": "Master's degree in Computer Science",
-                "description": "Master's candidate in C.S. currently researching about Recommender Systems and Natural Language Processing.",
-                "timePeriod": "Mar/2021 - Sep/2023",
+                "description": "Master's in C.S. with thesis investigating pre-training approaches for Matrix Factorization-based recommender systems, evaluating how unsupervised, self-supervised, and supervised embedding initialization strategies impact predictive performance and enable transfer learning in recommendation tasks.",
+                "timePeriod": "Mar/2021 - Apr/2024",
                 "location": "Campina Grande, Brazil"
             },
             {
-                "id": 1,
-                "title": "Bachelor's degree in Computer Science",
-                "description": "Bachelor in C.S., focused in learning about Web and Mobile Development and researched about Machine Learning, Natural Language Processing and Recommender Systems during the undergraduate course.",
-                "timePeriod": "Jun/2016 - Dec/2020",
-                "location": "Campina Grande, Brazil"
-            }
-        ],
-        "research": [
-            {
-                "id": 2,
+                "id": 3,
                 "title": "Evaluating Pre-training Strategies for Collaborative Filtering",
+                "description": "Conducts the first systematic evaluation of pre-training strategies for Matrix Factorization-based collaborative filtering, demonstrating that pre-training can vastly improve prediction quality and reach state-of-the-art results while acting as a regularizer that enhances model generalization, with effective solutions for the out-of-vocabulary item problem.",
                 "lab": "UMAP'23",
                 "timePeriod": "Jun/2023",
                 "location": "Limassol, Cyprus"
             },
             {
-                "id": 1,
+                "id": 2,
                 "title": "Similarity-Based Explanations meet Matrix Factorization via Structure-Preserving Embeddings",
+                "description": "Proposes structure-preserving embeddings for Matrix Factorization that enable similarity-based explanations similar to KNN-based approaches without compromising prediction performance, addressing the explainability gap that undermines user trust in recommender systems and achieving competitive results with state-of-the-art models through SGD initialization strategies.",
                 "lab": "IUI'22",
                 "timePeriod": "Mar/2022",
                 "location": "Online, Helsinki, Finland"
+            },
+            {
+                "id": 1,
+                "title": "Bachelor's degree in Computer Science",
+                "description": "Bachelor in C.S., focused in learning about Web and Mobile Development. Conducted undergraduate thesis research on Natural Language Processing techniques for Session-Based Recommendation, implementing and evaluating GRU-based models with NLP embeddings for session-based recommender systems using Last.fm dataset.",
+                "timePeriod": "Jun/2016 - Dec/2020",
+                "location": "Campina Grande, Brazil"
             }
         ],
         "web": [
@@ -216,16 +216,16 @@
             {
                 "id": 7,
                 "title": "VTEX",
-                "position": "Engenheiro de Software II",
-                "description": "Como Engenheiro de Software na equipe IO Apps, desenvolvi e mantive aplicações críticas de infraestrutura para garantir a resiliência da plataforma e otimizar a eficiência operacional, especialmente durante eventos de alto tráfego como a Black Friday. Impulsionou a modernização de infraestrutura e otimização de custos liderando uma migração sem tempo de inatividade de clusters Redis, resultando em $71.000 em economias anuais estimadas e maior confiabilidade através da adoção de IaC (Infrastructure as Code). Liderou iniciativas críticas de preparação para Black Friday, aproveitando análise de dados para prever tráfego e dimensionar aplicações, o que contribuiu para um SLA de 100% e uma redução de $70.000 nos custos operacionais em comparação com o ano anterior.",
-                "timePeriod": "Agosto/2024 - Presente",
+                "position": "Engenheiro de Software",
+                "description": "Como Engenheiro de Software na equipe IO Apps, atuou no desenvolvimento e manutenção de aplicações críticas de infraestrutura para garantir a resiliência da plataforma e otimizar a eficiência operacional, especialmente durante eventos de alto tráfego como a Black Friday. Impulsionou a modernização de infraestrutura e otimização de custos liderando uma migração de clusters Redis sem tempo de inatividade, resultando em $71k em economias anuais estimadas e maior confiabilidade através da adoção de IaC (Infrastructure as Code). Liderou iniciativas críticas de preparação para Black Friday, aproveitando análise de dados para prever tráfego e dimensionar aplicações, o que contribuiu para um SLA de 100% e uma redução de $70k nos custos operacionais em comparação com o ano anterior.",
+                "timePeriod": "Ago/2024 - Presente",
                 "location": "Remoto, Brasil"
             },
             {
                 "id": 6,
                 "title": "Inda.band",
                 "position": "Engenheiro de Software",
-                "description": "Ingressei na equipe como Cientista de Dados em meio período e transicionei para uma posição de Engenheiro de Software em tempo integral. Nas equipes Feeds e Watcher, fui responsável pelo desenvolvimento end-to-end de feeds personalizados e customizados para usuários, construindo uma plataforma de baixa latência e alta confiabilidade para garantir uma experiência de usuário perfeita. Aprimorei a observabilidade do sistema para desenvolvedores e stakeholders, permitindo que analisem o uso de funcionalidades através da implementação e integração de métricas in-app com dashboards contextuais. Pesquisei e implementei soluções para personalização de conteúdo, desde recuperação de informação até modelos de aprendizado de máquina, também aprimorando pipelines de processamento de dados para reduzir mais de 70% do tempo de execução.",
+                "description": "Ingresso na equipe como Cientista de Dados em meio período e migrou para uma posição de Engenheiro de Software em tempo integral. Nas equipes Feeds e Watcher, foi responsável pelo desenvolvimento end-to-end de feeds personalizados para usuários, construindo uma plataforma de baixa latência e alta confiabilidade para garantir uma boa experiência de usuário. Aprimorou a observabilidade do sistema para desenvolvedores e stakeholders, permitindo que analisem o uso de funcionalidades através da implementação e integração de métricas in-app com dashboards contextuais. Pesquisou e implementou soluções para personalização de conteúdo, desde a recuperação de informação até modelos de aprendizado de máquina, também aprimorando pipelines de processamento de dados para reduzir mais de 70% do tempo de execução.",
                 "timePeriod": "Mai/2022 - Jul/2024",
                 "location": "Remoto, Brasil"
             },
@@ -234,7 +234,7 @@
                 "title": "Dell EMC",
                 "lab": "Laboratório de Mineração de Dados",
                 "position": "Líder de Equipe de Pesquisa",
-                "description": "Após um estágio bem-sucedido em Ciência de Dados, fui promovido a Líder de Equipe e liderei o esforço para pesquisar e desenvolver soluções para melhorar a eficiência e os resultados do atendimento ao cliente. Gerenciei e mentorei uma equipe de três estudantes no desenvolvimento de soluções baseadas em dados, liderando a pesquisa e implementação desde a concepção até a entrega. Projetei e implantei modelos de Aprendizado de Máquina em tempo real em um ambiente baseado em microsserviços para fornecer insights imediatos e acionáveis para o atendimento ao cliente.",
+                "description": "Após um estágio em Ciência de Dados, foi promovido a Líder de Equipe e liderou o esforço na pesquisa e desenvolvimento de soluções para melhorar a eficiência e os resultados do atendimento ao cliente. Gerenciou e mentorou uma equipe de três alunos da graduação em Ciência da Computação, liderando a pesquisa e implementação, da concepção até a entrega. Projetou e implantou modelos de Aprendizado de Máquina em tempo real em um ambiente baseado em microsserviços para fornecer insights imediatos e acionáveis para o atendimento ao cliente.",
                 "timePeriod": "Out/2019 - Fev/2022",
                 "location": "Campina Grande, Brasil"
             },
@@ -243,41 +243,41 @@
                 "title": "ePol",
                 "lab": "Laboratório de Práticas de Software",
                 "position": "Estágio em Engenharia de Software",
-                "description": "Implementei novas funcionalidades em um sistema web de grande escala para atividades de aplicação da lei. Melhorei a experiência dos desenvolvedores e as configurações de Engenharia de Software refatorando toda a base de código para seguir um estilo consistente, facilitando revisões de código e integração de funcionalidades.",
+                "description": "Implementou novas funcionalidades em um sistema web de grande escala para atividades de aplicação da lei. Aprimorou a experiência dos desenvolvedores e as configurações de Engenharia de Software refatorando toda a base de código para seguir um estilo consistente, facilitando revisões de código e permitindo o uso de ferramentas de verificação de código e integração contínua (CI/CD).",
                 "timePeriod": "Jun/2018 - Mai/2019",
                 "location": "Campina Grande, Brasil"
             }
         ],
         "education": [
             {
-                "id": 2,
+                "id": 4,
                 "title": "Mestrado em Ciência da Computação",
-                "description": "Mestrando em Ciência da Computação, atualmente pesquisando sobre Sistemas de Recomendação e Processamento de Linguagem Natural.",
-                "timePeriod": "Mar/2021 - Dez/2022",
+                "description": "Mestrado em Ciência da Computação com dissertação investigando abordagens de pré-treinamento para sistemas de recomendação baseados em Fatoração de Matrizes, avaliando como estratégias de inicialização de embeddings não-supervisionadas, auto-supervisionadas e supervisionadas impactam a performance preditiva e habilitam transferência de aprendizado em tarefas de recomendação.",
+                "timePeriod": "Mar/2021 - Apr/2024",
                 "location": "Campina Grande, Brasil"
             },
             {
-                "id": 1,
-                "title": "Bacharelado em Ciência da Computação",
-                "description": "Graduação em Ciência da Computação, com foco no aprendizado de desenvolvimento de sistemas Web e Mobile, além de pesquisa sobre Aprendizagem de Máquina, Processamento de Linguagem Natural e Sistemas de Recomendação.",
-                "timePeriod": "Jun/2016 - Dez/2020",
-                "location": "Campina Grande, Brasil"
-            }
-        ],
-        "research": [
-            {
-                "id": 2,
+                "id": 3,
                 "title": "Evaluating Pre-training Strategies for Collaborative Filtering",
+                "description": "Realiza a primeira avaliação sistemática de estratégias de pré-treinamento para filtragem colaborativa baseada em Fatoração de Matrizes, demonstrando que pré-treinamento pode melhorar drasticamente a qualidade preditiva e alcançar resultados state-of-the-art, atuando como regularizador que melhora a generalização do modelo, com soluções efetivas para o problema de itens fora do vocabulário.",
                 "lab": "UMAP'23",
                 "timePeriod": "Jun/2023",
                 "location": "Limassol, Chipre"
             },
             {
-                "id": 1,
+                "id": 2,
                 "title": "Similarity-Based Explanations meet Matrix Factorization via Structure-Preserving Embeddings",
+                "description": "Propõe embeddings que preservam estrutura para Fatoração de Matrizes, habilitando explicações baseadas em similaridade similares a abordagens baseadas em KNN sem comprometer a performance preditiva, abordando a lacuna de explicabilidade que prejudica a confiança dos usuários em sistemas de recomendação e alcançando resultados competitivos com modelos state-of-the-art através de estratégias de inicialização com SGD.",
                 "lab": "IUI'22",
                 "timePeriod": "Mar/2022",
                 "location": "Online, Helsinki, Finlândia"
+            },
+            {
+                "id": 1,
+                "title": "Bacharelado em Ciência da Computação",
+                "description": "Graduação em Ciência da Computação, com foco no aprendizado de desenvolvimento de sistemas Web e Mobile. Realizei pesquisa de TCC sobre técnicas de Processamento de Linguagem Natural para Recomendação baseada em Sessões, implementando e avaliando modelos baseados em GRU com embeddings de NLP para sistemas de recomendação baseados em sessões usando dataset do Last.fm.",
+                "timePeriod": "Jun/2016 - Dez/2020",
+                "location": "Campina Grande, Brasil"
             }
         ],
         "web": [
