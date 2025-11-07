@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 
 import MainScreenContext from './MainScreenContext';
 import { BigCard } from '../common';
-import { Intro, About, Contact } from '../sections';
+import { Intro, Contact } from '../sections';
 import Section from '../sections/Section';
 
 import './MainScreen.css';
@@ -33,11 +33,6 @@ const MainScreen = ({ contacts, projects, sections }) => {
                         <Intro />
                     </BigCard>
                 </section>
-                {/* <section aria-label="About Me">
-                    <BigCard key={colors[0]} color={colors[0]}>
-                        <About bgColor={colors[0]} />
-                    </BigCard>
-                </section> */}
                 {sectionNames.map((name, i) => (
                     <section key={name} aria-label={languageSections[name].title}>
                         <BigCard key={colors[i]} color={colors[i + 1]}>

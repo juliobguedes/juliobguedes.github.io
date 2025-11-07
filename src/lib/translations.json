@@ -11,11 +11,6 @@
             "cl3": "/pt",
             "resume": "resumé"
         },
-        "about": {
-            "title": "About Me",
-            "p1": "",
-            "p2": ""
-        },
         "contact": {
             "title": "Contacts",
             "body": "You can find me on the internet as @juliobguedes. Feel free to reach out :)"
@@ -32,11 +27,6 @@
             "cl2": "versão em Inglês",
             "cl3": "/",
             "resume": "resumé"
-        },
-        "about": {
-            "title": "Sobre mim",
-            "p1": "",
-            "p2": ""
         },
         "contact": {
             "title": "Contatos",
