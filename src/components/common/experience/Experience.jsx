@@ -2,17 +2,11 @@ import React from 'react';
 import './Experience.css';
 
 const Experience = ({
-    title, lab, position, description, timePeriod, location,
+    title, lab, position, description, timePeriod, location, link,
 }) => {
-    const companyLinks = {
-        'Inda.band': 'https://www.linkedin.com/company/indaband',
-        'VTEX': 'https://www.linkedin.com/company/vtex/',
-    };
-    
-    const link = companyLinks[title];
     const displayTitle = lab ? `${title} @ ${lab}` : title;
     const titleWithPosition = position ? `${position} · ${displayTitle}` : displayTitle;
-    
+
     const parseDates = (timePeriod) => {
         if (!timePeriod) return { start: '', end: '' };
         const parts = timePeriod.split(' - ');
@@ -41,13 +35,13 @@ const Experience = ({
             </div>
         </div>
     );
-    
+
     if (link) {
         return (
             <article className="experience-container experience-hoverable">
-                <a 
-                    href={link} 
-                    target="_blank" 
+                <a
+                    href={link}
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="experience-link-wrapper"
                     aria-label={`${displayTitle} - External link`}
@@ -57,7 +51,7 @@ const Experience = ({
             </article>
         );
     }
-    
+
     return (
         <article className="experience-container">
             {content}

@@ -7,7 +7,8 @@
                 "position": "Software Engineer II",
                 "description": "As a Software Engineer on the IO Apps team, I developed and maintained critical infrastructure applications to ensure platform resilience and optimize operational efficiency, especially during high-traffic events such as Black Friday. Drove infrastructure modernization and cost optimization by leading a zero-downtime migration of Redis clusters, resulting in $71,000 in estimated annual savings and enhanced reliability through IaC (Infrastructure as Code) adoption. Led critical Black Friday readiness initiatives, leveraging data analysis to forecast traffic and scale applications, which contributed to a 100% SLA and a $70,000 reduction in operational costs compared to the previous year.",
                 "timePeriod": "Aug/2024 - Present",
-                "location": "Remote, Brazil"
+                "location": "Remote, Brazil",
+                "link": "https://www.linkedin.com/company/vtex/"
             },
             {
                 "id": 6,
@@ -15,7 +16,8 @@
                 "position": "Software Engineer",
                 "description": "I joined the team as a part-time Data Scientist and transitioned to a full-time, full-stack Software Engineer position. On the Feeds and Watcher teams, I was responsible for the end-to-end development of custom and personalized user feeds, building a low-latency and highly reliable platform to ensure a seamless user experience. Enhanced system observability for developers and stakeholders, enabling them to analyze feature usage by implementing and integrating in-app metrics with contextual dashboards. Researched and implemented solutions for content personalization, from information retrieval to machine learning models, also enhancing data processing pipelines to reduce over 70% of the execution time.",
                 "timePeriod": "May/2022 - Jul/2024",
-                "location": "Remote, Brazil"
+                "location": "Remote, Brazil",
+                "link": "https://www.linkedin.com/company/indaband"
             },
             {
                 "id": 5,
@@ -42,7 +44,8 @@
                 "title": "Master's degree in Computer Science",
                 "description": "Master's in C.S. with thesis investigating pre-training approaches for Matrix Factorization-based recommender systems, evaluating how unsupervised, self-supervised, and supervised embedding initialization strategies impact predictive performance and enable transfer learning in recommendation tasks.",
                 "timePeriod": "Mar/2021 - Apr/2024",
-                "location": "Campina Grande, Brazil"
+                "location": "Campina Grande, Brazil",
+                "link": "https://dspace.sti.ufcg.edu.br/bitstream/riufcg/41050/1/J%c3%9aLIO%20BARRETO%20GUEDES%20DA%20COSTA%20-%20DISSERTA%c3%87%c3%83O%20(PPGCC)%202024.pdf"
             },
             {
                 "id": 3,
@@ -50,7 +53,8 @@
                 "description": "Conducts the first systematic evaluation of pre-training strategies for Matrix Factorization-based collaborative filtering, demonstrating that pre-training can vastly improve prediction quality and reach state-of-the-art results while acting as a regularizer that enhances model generalization, with effective solutions for the out-of-vocabulary item problem.",
                 "lab": "UMAP'23",
                 "timePeriod": "Jun/2023",
-                "location": "Limassol, Cyprus"
+                "location": "Limassol, Cyprus",
+                "link": "https://web.archive.org/web/20230627012814id_/https://dl.acm.org/doi/pdf/10.1145/3565472.3592949"
             },
             {
                 "id": 2,
@@ -58,14 +62,16 @@
                 "description": "Proposes structure-preserving embeddings for Matrix Factorization that enable similarity-based explanations similar to KNN-based approaches without compromising prediction performance, addressing the explainability gap that undermines user trust in recommender systems and achieving competitive results with state-of-the-art models through SGD initialization strategies.",
                 "lab": "IUI'22",
                 "timePeriod": "Mar/2022",
-                "location": "Online, Helsinki, Finland"
+                "location": "Online, Helsinki, Finland",
+                "link": "https://d1wqtxts1xzle7.cloudfront.net/88810044/3490099-libre.pdf?1658367679=&response-content-disposition=inline%3B+filename%3DSimilarity_Based_Explanations_meet_Matri.pdf&Expires=1762450625&Signature=eVm6REoW00KhcNDE8ZY~w-xzsg8z5HZIlpZ6H8p05GkjPZyMF-ELJUW65MzZ7EuVwGr286kLSRHUcKIgneXt6uijIPRT0DFZmOqR-KIfTPvzLljqtHeD1Jweocu3cGuaUFpW98bOtTWJ6TQFu-zjPAM185Ta4NDMbCxkN68vT7CCVskttnyPRhWot8YcWRx86sg9FpVI~4gpWH1qLb5790zcRe5LSXrD32qjlUTr3ACBGnY1g79deWe7yvCOFPJFUIRuJD5ihDclShKwXlObjeJkv2LcvMDpLdUhcWoaaxS3I2uo~bBXWVd-4x3K7fCXP8UrjkeRRAFtodqxCPeL8Q__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"
             },
             {
                 "id": 1,
                 "title": "Bachelor's degree in Computer Science",
                 "description": "Bachelor in C.S., focused in learning about Web and Mobile Development. Conducted undergraduate thesis research on Natural Language Processing techniques for Session-Based Recommendation, implementing and evaluating GRU-based models with NLP embeddings for session-based recommender systems using Last.fm dataset.",
                 "timePeriod": "Jun/2016 - Dec/2020",
-                "location": "Campina Grande, Brazil"
+                "location": "Campina Grande, Brazil",
+                "link": "https://dspace.sti.ufcg.edu.br/bitstream/riufcg/20337/1/JU%CC%81LIO%20BARRETO%20GUEDES%20DA%20COSTA%20-%20TCC%20CIE%CC%82NCIA%20DA%20COMPITAC%CC%A7A%CC%83O%202020.pdf"
             }
         ],
         "web": [
@@ -219,7 +225,8 @@
                 "position": "Engenheiro de Software",
                 "description": "Como Engenheiro de Software na equipe IO Apps, atuou no desenvolvimento e manutenção de aplicações críticas de infraestrutura para garantir a resiliência da plataforma e otimizar a eficiência operacional, especialmente durante eventos de alto tráfego como a Black Friday. Impulsionou a modernização de infraestrutura e otimização de custos liderando uma migração de clusters Redis sem tempo de inatividade, resultando em $71k em economias anuais estimadas e maior confiabilidade através da adoção de IaC (Infrastructure as Code). Liderou iniciativas críticas de preparação para Black Friday, aproveitando análise de dados para prever tráfego e dimensionar aplicações, o que contribuiu para um SLA de 100% e uma redução de $70k nos custos operacionais em comparação com o ano anterior.",
                 "timePeriod": "Ago/2024 - Presente",
-                "location": "Remoto, Brasil"
+                "location": "Remoto, Brasil",
+                "link": "https://www.linkedin.com/company/vtex/"
             },
             {
                 "id": 6,
@@ -227,7 +234,8 @@
                 "position": "Engenheiro de Software",
                 "description": "Ingresso na equipe como Cientista de Dados em meio período e migrou para uma posição de Engenheiro de Software em tempo integral. Nas equipes Feeds e Watcher, foi responsável pelo desenvolvimento end-to-end de feeds personalizados para usuários, construindo uma plataforma de baixa latência e alta confiabilidade para garantir uma boa experiência de usuário. Aprimorou a observabilidade do sistema para desenvolvedores e stakeholders, permitindo que analisem o uso de funcionalidades através da implementação e integração de métricas in-app com dashboards contextuais. Pesquisou e implementou soluções para personalização de conteúdo, desde a recuperação de informação até modelos de aprendizado de máquina, também aprimorando pipelines de processamento de dados para reduzir mais de 70% do tempo de execução.",
                 "timePeriod": "Mai/2022 - Jul/2024",
-                "location": "Remoto, Brasil"
+                "location": "Remoto, Brasil",
+                "link": "https://www.linkedin.com/company/indaband"
             },
             {
                 "id": 5,
@@ -254,7 +262,8 @@
                 "title": "Mestrado em Ciência da Computação",
                 "description": "Mestrado em Ciência da Computação com dissertação investigando abordagens de pré-treinamento para sistemas de recomendação baseados em Fatoração de Matrizes, avaliando como estratégias de inicialização de embeddings não-supervisionadas, auto-supervisionadas e supervisionadas impactam a performance preditiva e habilitam transferência de aprendizado em tarefas de recomendação.",
                 "timePeriod": "Mar/2021 - Apr/2024",
-                "location": "Campina Grande, Brasil"
+                "location": "Campina Grande, Brasil",
+                "link": "https://dspace.sti.ufcg.edu.br/bitstream/riufcg/41050/1/J%c3%9aLIO%20BARRETO%20GUEDES%20DA%20COSTA%20-%20DISSERTA%c3%87%c3%83O%20(PPGCC)%202024.pdf"
             },
             {
                 "id": 3,
@@ -262,7 +271,8 @@
                 "description": "Realiza a primeira avaliação sistemática de estratégias de pré-treinamento para filtragem colaborativa baseada em Fatoração de Matrizes, demonstrando que pré-treinamento pode melhorar drasticamente a qualidade preditiva e alcançar resultados state-of-the-art, atuando como regularizador que melhora a generalização do modelo, com soluções efetivas para o problema de itens fora do vocabulário.",
                 "lab": "UMAP'23",
                 "timePeriod": "Jun/2023",
-                "location": "Limassol, Chipre"
+                "location": "Limassol, Chipre",
+                "link": "https://web.archive.org/web/20230627012814id_/https://dl.acm.org/doi/pdf/10.1145/3565472.3592949"
             },
             {
                 "id": 2,
@@ -270,14 +280,16 @@
                 "description": "Propõe embeddings que preservam estrutura para Fatoração de Matrizes, habilitando explicações baseadas em similaridade similares a abordagens baseadas em KNN sem comprometer a performance preditiva, abordando a lacuna de explicabilidade que prejudica a confiança dos usuários em sistemas de recomendação e alcançando resultados competitivos com modelos state-of-the-art através de estratégias de inicialização com SGD.",
                 "lab": "IUI'22",
                 "timePeriod": "Mar/2022",
-                "location": "Online, Helsinki, Finlândia"
+                "location": "Online, Helsinki, Finlândia",
+                "link": "https://d1wqtxts1xzle7.cloudfront.net/88810044/3490099-libre.pdf?1658367679=&response-content-disposition=inline%3B+filename%3DSimilarity_Based_Explanations_meet_Matri.pdf&Expires=1762450625&Signature=eVm6REoW00KhcNDE8ZY~w-xzsg8z5HZIlpZ6H8p05GkjPZyMF-ELJUW65MzZ7EuVwGr286kLSRHUcKIgneXt6uijIPRT0DFZmOqR-KIfTPvzLljqtHeD1Jweocu3cGuaUFpW98bOtTWJ6TQFu-zjPAM185Ta4NDMbCxkN68vT7CCVskttnyPRhWot8YcWRx86sg9FpVI~4gpWH1qLb5790zcRe5LSXrD32qjlUTr3ACBGnY1g79deWe7yvCOFPJFUIRuJD5ihDclShKwXlObjeJkv2LcvMDpLdUhcWoaaxS3I2uo~bBXWVd-4x3K7fCXP8UrjkeRRAFtodqxCPeL8Q__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"
             },
             {
                 "id": 1,
                 "title": "Bacharelado em Ciência da Computação",
                 "description": "Graduação em Ciência da Computação, com foco no aprendizado de desenvolvimento de sistemas Web e Mobile. Realizei pesquisa de TCC sobre técnicas de Processamento de Linguagem Natural para Recomendação baseada em Sessões, implementando e avaliando modelos baseados em GRU com embeddings de NLP para sistemas de recomendação baseados em sessões usando dataset do Last.fm.",
                 "timePeriod": "Jun/2016 - Dez/2020",
-                "location": "Campina Grande, Brasil"
+                "location": "Campina Grande, Brasil",
+                "link": "https://dspace.sti.ufcg.edu.br/bitstream/riufcg/20337/1/JU%CC%81LIO%20BARRETO%20GUEDES%20DA%20COSTA%20-%20TCC%20CIE%CC%82NCIA%20DA%20COMPITAC%CC%A7A%CC%83O%202020.pdf"
             }
         ],
         "web": [
